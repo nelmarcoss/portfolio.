@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>portfolio.</title>
+	<link href="estilos.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css"> 
+  <script src="portfolio.js"></script>
+</head>
+
+<body>
+  <div class="carga"></div>
+  <main>
+
+  <section class="intro">
+
+		<div class="intro-text">
+      <div class="saludo">
+				<h1>Hola! 👋  &mdash; Mi nombre es <span>Nel</span>, y soy un estudiante de <span>ASIR</span> y <span>Desarrollo Web</span> 👨🏻‍💻 nacido en 🇪🇸. </h1>
+      </div>
+    </div>
+    
+	</section>
+  <section class="proyectos">
+    <div class="proyectos-collage">
+
+      <a class="proyecto-item"  target="_blank">
+        <figure class="proyecto-figure">
+          <div class="proyecto-overlay"></div>
+          <img src="proyectos/granja.jpg">
+          <figcaption class="proyecto-text">
+            <h2>El Estanque Azul</h2>
+            <p>Primer proyecto con HTML y CSS</p>
+
+           <p class='hidden popUpdesc'> Proyecto final de la primera evaluación en el que teníamos que crear una página web del tema que nosotros quisieramos. Yo elegí hacerla sobre una granja.
+           </p>
+           
+        <span id="githubRepo" href=https://github.com/nelmarcoss/El-Estanque-Azul></span>
+        <span id="livePreview" href="https://estanqueazul.netlify.app"></span>
+
+          </figcaption>
+        </figure>
+			</a>
+      
+      <a class="proyecto-item" target="_blank">
+        <figure class="proyecto-figure">
+          <div class="proyecto-overlay"></div>
+          <img src="proyectos/principal.jpg">
+          <figcaption class="proyecto-text">
+            <h2>tinyspace.</h2>
+            <p>Primer proyecto del curso CSS</p>
+
+           <p class='hidden popUpdesc'> Primer proyecto del curso CSS. Se trata de una muebleria. Su nombre fue generado aleatoriamente.
+          </p>
+
+        <span id="githubRepo" href="https://github.com/nelmarcoss/tinyspace."></span>
+        <span id="livePreview" href="#"></span>
+
+    
+      </figcaption>
+      </figure>
+			</a>
+			
+    </div>
+	</section>
+	
+  <section class="content contact">
+    <a class="button-slide" data-hover="nelmarcos@icloud.com" href="mailto:nelmarcos@icloud.com">
+      <span>Contacta conmigo! 👌</span>
+    </a>
+    
+    </section>
+	
+  <footer>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <a href="https://instagram.com/nelmarcoss" target="_blank">Instagram</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/nelmarcos" target="_blank">Linkedin</a>
+				</li>
+				<li>
+						<a href="https://github.com/nelmarcoss" target="_blank">GitHub</a>
+					</li>
+      </ul>
+    </div>
+	</footer>
+  </main>
+ 
+  <div class="popUp">
+    <div class="popUpImg"></div>
+    <div id="popUpText">
+      <h1>Nombre del proyecto</h1>
+      <p class="projectDesc">Descripción del proyecto</p>
+      <div>
+        <a href="" id="githubLink"> Repositorio</a>
+      </div>
+      <div>
+        <a href="" id="previewLink">Visita la página</a>
+      </div>
+
+    </div>
+    <span id="cancelBtn">X</span>
+  </div>
+</body>
+
+
+</html>
