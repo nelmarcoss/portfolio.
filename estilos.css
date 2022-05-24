@@ -129,7 +129,7 @@ b {
 }
 
 .intro span {
-    color: rgb(3, 42, 233);
+    color: rgb(40, 180, 99);
 }
 
 .intro h1 {
@@ -272,7 +272,7 @@ a.button-slide {
     display: inline-block;
     outline: none;
     color: #f5f5f5;
-    background-color: rgb(3, 42, 233);
+    background-color: rgb(40, 180, 99);
     letter-spacing: .15rem;
     font-weight: 300;
     font-size: 1.5em;
@@ -301,7 +301,7 @@ a.button-slide:before {
     -webkit-transition: inherit;
     transition: inherit;
     content: attr(data-hover);
-    color: rgb(3, 42, 233)
+    color: rgb(40, 180, 99)
 }
 
 a.button-slide:hover,a.button-slide:focus {
@@ -373,7 +373,7 @@ footer ul li a:after {
 }
 
 footer ul li a:hover:after {
-    background-color: #1004c5;
+    background-color: rgb(40, 180, 99);
     -webkit-transform: scaleX(1);
     transform: scaleX(1)
 }
