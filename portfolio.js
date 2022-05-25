@@ -2,6 +2,11 @@ $(window).load(() => {
   windowLoaded();
 });
 
+function setFavicon() {
+  var link = $('link[type="image/x-icon"]').remove().attr("href");
+  $('<link href="'+ link +'" rel="shortcut icon" type="image/x-icon" />').appendTo('head');
+}
+
 const windowLoaded = () => {
   $('.carga')
     .delay(400)
