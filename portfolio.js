@@ -95,7 +95,7 @@ const windowLoaded = () => {
         $(popUpElem)
           .children('#popUpText')
           .children('div')
-          .children('#infoLink')
+          .children('#githubLink')
           .attr('href', `${projetgithubRepo}`);
 
         // setting the preview link here.
