@@ -61,10 +61,10 @@ const windowLoaded = () => {
           .children('img')
           .attr('src');
 
-        const projetinfoproyecto = $(e.target)
+        const projetgithubRepo = $(e.target)
           .closest('.proyecto-figure')
           .children('figcaption')
-          .children('#infoproyecto')
+          .children('#githubRepo')
           .attr('href');
 
         const projectLivePreview = $(e.target)
@@ -96,7 +96,7 @@ const windowLoaded = () => {
           .children('#popUpText')
           .children('div')
           .children('#infoLink')
-          .attr('href', `${projetinfoproyecto}`);
+          .attr('href', `${projetgithubRepo}`);
 
         // setting the preview link here.
         $(popUpElem)
