@@ -7,7 +7,7 @@ Portfolio personal de sistemas y proyectos digitales. Incluye Atlas y los tres p
 - Portfolio: https://nelmarcos.netlify.app
 - Atlas: https://atlas.nelmarcos.chatgpt.site/atlas (alojamiento independiente).
 - Cada cambio en `main` se publica mediante la conexión existente entre GitHub y Netlify.
-- No hay un dominio personalizado configurado. Cuando se elija uno, se añadirá desde la configuración del proyecto en Netlify.
+- Se utilizan las direcciones gratuitas de Netlify. No hay un dominio propio previsto.
 
 ## Desarrollo
 
