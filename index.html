@@ -1,130 +1,44 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>portfolio.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Nel Marcos. Sistemas, desarrollo web y proyectos digitales: descubre Atlas y mis primeras exploraciones web.">
+  <meta name="theme-color" content="#f5f6f1">
+  <meta name="color-scheme" content="light dark">
+  <title>Nel Marcos — Sistemas y proyectos digitales</title>
   <link rel="icon" type="image/png" href="proyectos/favicon2.png">
-	<link href="estilos.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css"> 
-  <script src="portfolio.js"></script>
+  <link rel="stylesheet" href="estilos.css">
+  <script src="portfolio.js" defer></script>
 </head>
-
-<body>
-  <div class="carga"></div>
-  <main>
-
-  <section class="intro">
-
-		<div class="intro-text">
-      <div class="saludo">
-				<h1>Hola! 👋  &mdash; Mi nombre es <span>Nel</span>, y soy un estudiante de <span>ASIR</span> y <span>Desarrollo Web</span> 👨🏻‍💻 nacido en 🇪🇸 </h1>
-      </div>
-    </div>
-    
-	</section>
-  <section class="proyectos">
-    <div class="proyectos-collage">
-      <a class="proyecto-item"  target="_blank">
-        <figure class="proyecto-figure">
-          <div class="proyecto-overlay"></div>
-          <img src="proyectos/granja.jpg">
-          <figcaption class="proyecto-text">
-            <h2>El Estanque Azul</h2>
-            <p>Mi primer proyecto con HTML y CSS</p>
-
-           <p class='hidden popUpdesc'> Proyecto final de la primera evaluación en el que teníamos que crear una página web del tema que nosotros quisieramos. Yo elegí hacerla sobre una granja.
-           </p>
-           
-        <span id="githubRepo" href=https://github.com/nelmarcoss/El-Estanque-Azul></span>
-        <span id="livePreview" href="https://estanqueazul.nelmarcos.dev"></span>
-
-          </figcaption>
-        </figure>
-			</a>
-
-			<a class="proyecto-item" target="_blank">
-        <figure class="proyecto-figure">
-          <div class="proyecto-overlay"></div>
-          <img src="proyectos/principal.jpg">
-          <figcaption class="proyecto-text">
-            <h2>tinyspace.</h2>
-            <p>Página web de una mueblería</p>
-
-           <p class='hidden popUpdesc'> Primer proyecto del curso "HTML y CSS". Se trata de una muebleria. Su nombre fue generado aleatoriamente.
-          </p>
-
-        <span id="githubRepo" href="https://github.com/nelmarcoss/tinyspace."></span>
-        <span id="livePreview" href="https://tinyspace.nelmarcos.dev"></span>
-
-    
-      </figcaption>
-      </figure>
-			</a>
-
-      <a class="proyecto-item"  target="_blank">
-        <figure class="proyecto-figure">
-          <div class="proyecto-overlay"></div>
-          <img src="proyectos/SkullScape.jpg">
-          <figcaption class="proyecto-text">
-            <h2>SkullScape.</h2>
-            <p>Página web de una tienda de audífonos</p>
-
-           <p class='hidden popUpdesc'> Segundo proyecto del curso "HTML y CSS". Se trata de una tienda sobre audífonos. Su nombre fue generado aleatoriamente. Todavía esta en proceso.
-           </p>
-           
-        <span id="githubRepo" href=https://github.com/nelmarcoss/SkullScape.></span>
-        <span id="livePreview" href="https://skullscape.nelmarcos.dev"></span>
-
-          </figcaption>
-        </figure>
-			</a>
-
-    </div>
-	</section>
-	
-  <section class="content contact">
-    <a class="button-slide" data-hover="nelmarcos@icloud.com" href="mailto:nelmarcos@icloud.com">
-      <span>Contacta conmigo! 📬</span>
-    </a>
-    
+<body id="inicio">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="header wrap">
+    <a class="brand" href="#inicio" aria-label="Nel Marcos, inicio"><img src="proyectos/favicon2.png" width="40" height="40" alt=""><span>Nel Marcos<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Navegación principal"><a href="#proyectos">Proyectos</a><a href="#sobre-mi">Sobre mí</a><a href="#contacto">Contacto <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="contenido">
+    <section class="hero wrap" aria-labelledby="presentacion">
+      <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> SISTEMAS · WEB · IDEAS PROPIAS</p>
+      <h1 id="presentacion">De una idea a algo<br>que <em>funciona.</em></h1>
+      <div class="hero-bottom"><p>Soy Nel, técnico de sistemas. Desarrollo webs y soluciones digitales, y exploro cómo la IA puede hacer más sencillas las cosas de cada día.</p><a class="round-link" href="#proyectos" aria-label="Descubrir mis proyectos"><span aria-hidden="true">↓</span></a></div>
     </section>
-	
-  <footer>
-    <div class="wrapper">
-      <ul>
-        <li>
-          <a href="https://instagram.com/nelmarcoss" target="_blank">Instagram</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/nelmarcos" target="_blank">Linkedin</a>
-				</li>
-				<li>
-						<a href="https://github.com/nelmarcoss" target="_blank">GitHub</a>
-					</li>
-      </ul>
-    </div>
-	</footer>
+    <section class="projects wrap" id="proyectos" aria-labelledby="proyectos-titulo">
+      <div class="section-heading"><h2 id="proyectos-titulo">Ideas en marcha<span class="brand-dot">.</span></h2><span class="section-note">PROYECTOS PERSONALES</span></div>
+      <article class="featured" aria-labelledby="atlas-titulo">
+        <div class="featured-content"><p class="eyebrow">PROYECTO DESTACADO / 01</p><h3 id="atlas-titulo">Un lugar para ver<br>tu patrimonio.</h3><p>Atlas reúne cuentas, inversiones y activos en una visión clara. Un registro mensual para entender tu evolución, a tu ritmo.</p><ul class="tags" aria-label="Funciones de Atlas"><li>Patrimonio</li><li>Evolución</li><li>Informes</li></ul><a class="button" href="https://atlas.nelmarcos.chatgpt.site/atlas" target="_blank" rel="noopener noreferrer">Descubrir Atlas <span aria-hidden="true">↗</span><span class="sr-only"> (se abre en una pestaña nueva)</span></a></div>
+        <div class="atlas-art" aria-hidden="true"><div class="atlas-art-top"><span>UNA VISIÓN MÁS CLARA</span><span>↗</span></div><div class="atlas-wordmark"><span class="atlas-bars"><i></i><i></i><i></i></span>atlas<span>.</span></div><svg class="atlas-chart" viewBox="0 0 480 155" fill="none"><path d="M0 36H480M0 85H480M0 134H480" stroke="currentColor" stroke-opacity=".16"/><path d="M0 130 48 121 96 126 144 96 192 100 240 72 288 82 336 44 384 52 432 18 480 6" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="atlas-art-bottom"><span>Tu patrimonio, con perspectiva.</span><span>MES A MES</span></div></div>
+      </article>
+      <div class="archive-heading"><h3>Donde empezó todo</h3><p>Mis primeras exploraciones con HTML y CSS.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><a class="project-image" href="https://skullscape.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Visitar SkullScape (pestaña nueva)"><img src="proyectos/skullscape.webp" alt="Auriculares blancos sobre un fondo rosa" width="1000" height="667" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true">↗</span></a><div class="card-heading"><h3>SkullScape.</h3><span>02</span></div><p>Una tienda de auriculares como ejercicio de diseño y maquetación web.</p><div class="card-links"><a href="https://skullscape.netlify.app" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span><span class="sr-only"> SkullScape (pestaña nueva)</span></a><a href="https://github.com/nelmarcoss/SkullScape." target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> de SkullScape (pestaña nueva)</span></a></div></article>
+        <article class="project-card"><a class="project-image" href="https://tinyyspace.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Visitar tinyspace (pestaña nueva)"><img src="proyectos/tinyspace.webp" alt="Interior luminoso con muebles de madera y tonos naturales" width="1000" height="667" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true">↗</span></a><div class="card-heading"><h3>tinyspace.</h3><span>03</span></div><p>Un concepto de web de mobiliario, con el espacio y la sencillez como protagonistas.</p><div class="card-links"><a href="https://tinyyspace.netlify.app" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span><span class="sr-only"> tinyspace (pestaña nueva)</span></a></div></article>
+        <article class="project-card"><a class="project-image" href="https://estanqueazul.netlify.app" target="_blank" rel="noopener noreferrer" aria-label="Visitar El Estanque Azul (pestaña nueva)"><img src="proyectos/estanque-azul.webp" alt="Paisaje rural de El Estanque Azul" width="1000" height="667" loading="lazy" decoding="async"><span class="image-arrow" aria-hidden="true">↗</span></a><div class="card-heading"><h3>El Estanque Azul</h3><span>04</span></div><p>Mi primer proyecto web: una página dedicada a una granja y su entorno.</p><div class="card-links"><a href="https://estanqueazul.netlify.app" target="_blank" rel="noopener noreferrer">Ver proyecto <span aria-hidden="true">↗</span><span class="sr-only"> El Estanque Azul (pestaña nueva)</span></a><a href="https://github.com/nelmarcoss/El-Estanque-Azul" target="_blank" rel="noopener noreferrer">Código<span class="sr-only"> de El Estanque Azul (pestaña nueva)</span></a></div></article>
+      </div>
+    </section>
+    <section class="about wrap" id="sobre-mi" aria-labelledby="sobre-mi-titulo"><p class="eyebrow">UN POCO SOBRE MÍ</p><div class="about-grid"><h2 id="sobre-mi-titulo">La curiosidad,<br>puesta en práctica.</h2><div><p>Trabajo en sistemas y me gusta entender cómo funcionan las cosas. Aquí comparto lo que voy construyendo: desde mis primeras webs hasta aplicaciones que nacen de una necesidad real.</p><p>Este es mi espacio para probar, aprender y dar forma a nuevas ideas. La tecnología cambia; las ganas de crear algo útil, siguen.</p><ul class="tags" aria-label="Áreas de interés"><li>Sistemas</li><li>Desarrollo web</li><li>Automatización</li><li>Inteligencia artificial</li></ul></div></div></section>
+    <section class="contact" id="contacto" aria-labelledby="contacto-titulo"><div class="wrap"><p class="eyebrow">SIGAMOS LA CONVERSACIÓN</p><h2 id="contacto-titulo">Las buenas ideas<br>empiezan hablando<span>.</span></h2><a class="email-link" href="mailto:nelmarcos@icloud.com">nelmarcos@icloud.com <span aria-hidden="true">↗</span></a></div></section>
   </main>
- 
-  <div class="popUp">
-    <div class="popUpImg"></div>
-    <div id="popUpText">
-      <h1>Nombre del proyecto</h1>
-      <p class="projectDesc">Descripción del proyecto</p>
-      <div>
-        <a href="" id="githubLink" target="_blank">Repositorio</a>
-      </div>
-      <div>
-        <a href="" id="previewLink" target="_blank">Visita la página</a>
-      </div>
-
-    </div>
-    <span id="cancelBtn">X</span>
-  </div>
+  <footer class="footer wrap"><a class="footer-home" href="#inicio">Nel Marcos<span class="brand-dot">.</span></a><nav aria-label="Redes sociales"><a href="https://github.com/nelmarcoss" target="_blank" rel="noopener noreferrer">GitHub <span class="sr-only">(pestaña nueva)</span>↗</a><a href="https://www.linkedin.com/in/nelmarcos" target="_blank" rel="noopener noreferrer">LinkedIn <span class="sr-only">(pestaña nueva)</span>↗</a><a href="https://instagram.com/nelmarcoss" target="_blank" rel="noopener noreferrer">Instagram <span class="sr-only">(pestaña nueva)</span>↗</a></nav><span class="copyright">© <span data-year>2026</span></span></footer>
 </body>
-
-
 </html>
