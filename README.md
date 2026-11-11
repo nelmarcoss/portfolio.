@@ -54,8 +54,3 @@ La página del portfolio funciona sin JavaScript; este solo actualiza el año de
 
 **Nel** · [LinkedIn](https://www.linkedin.com/in/nelmarcos/) · [Contacto](mailto:nelmarcos@icloud.com)
 
-## Acceso compartido de NMCLabs
-
-`https://nmclabs.dev/cuenta/` es la página neutral de entrada a Platto y Tramo y el destino previsto de respaldo para Supabase Auth. No recibe contraseñas, no interpreta ni reenvía tokens y no añade seguimiento. Los enlaces válidos de confirmación o recuperación siguen las direcciones explícitas de cada aplicación; un enlace inválido o una redirección no autorizada puede caer en esta página común.
-
-Después de publicar esta página, configurar el **Site URL** del Supabase compartido con `https://nmclabs.dev/cuenta/`, conservando todas las **Redirect URLs** válidas de Tramo y Platto. No es necesario cambiar las rutas de las aplicaciones. Las plantillas compartidas de Auth deben tener la marca NMCLabs; los avisos de paquetes de Tramo conservan su propia marca.
