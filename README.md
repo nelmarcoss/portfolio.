@@ -2,6 +2,11 @@
 
 Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
 
+
+## Vista previa
+
+![Portfolio de Nel](docs/images/portfolio.png)
+
 ## Proyectos incluidos
 
 | Proyecto | Descripción | Demo |
