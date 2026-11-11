@@ -1,4 +1,4 @@
-# Nel Marcos — Portfolio
+# Nel — Portfolio
 
 Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
 
@@ -46,4 +46,4 @@ La página del portfolio funciona sin JavaScript; este solo actualiza el año de
 
 ## Autor
 
-**Nel Marcos** · [LinkedIn](https://www.linkedin.com/in/nelmarcos/) · [Contacto](mailto:nelmarcos@icloud.com)
+**Nel** · [LinkedIn](https://www.linkedin.com/in/nelmarcos/) · [Contacto](mailto:nelmarcos@icloud.com)
