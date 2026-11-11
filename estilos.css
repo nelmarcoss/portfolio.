@@ -7,3 +7,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
 .icon-arrow{width:1.15em;height:1.15em;display:inline-block;vertical-align:-.16em;flex-shrink:0}.header nav a,.footer nav a,.card-links a{min-height:44px;display:inline-flex;align-items:center;gap:5px}
+
+.tramo-featured{margin-top:28px}.tramo-art{background:#e9ede5;color:#263e3e;display:flex;flex-direction:column;justify-content:space-between;padding:32px;min-height:350px}.tramo-art-top{font-size:9px;letter-spacing:.13em}.tramo-wordmark{font-size:100px;font-weight:650;letter-spacing:-.075em;text-align:center;line-height:1.2;margin-top:20px}.tramo-wordmark>span{color:#df6035}.tramo-art>svg{width:100%;height:100px;color:#98aa87;margin-block:15px}.tramo-art-bottom{font-size:11px;display:flex;justify-content:space-between;align-items:center}.tramo-art-bottom>span{font-size:25px}@media(max-width:680px){.tramo-art{padding:26px;min-height:310px}.tramo-wordmark{font-size:90px}}

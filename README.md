@@ -1,11 +1,12 @@
 # Nel Marcos — Portfolio
 
-Portfolio personal de sistemas y proyectos digitales. Incluye Atlas y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
+Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
 
 ## Proyectos incluidos
 
 | Proyecto | Descripción | Demo |
 | --- | --- | --- |
+| Tramo | Seguimiento de paquetes: presentación, demo y cuenta personal. | [Tramo](https://nelmarcos.netlify.app/tramo/) |
 | Atlas | Seguimiento privado del patrimonio; presentación pública de la aplicación. | [Atlas](https://atlas-nelmarcos.netlify.app/) |
 | SkullScape. | Landing de una marca ficticia de auriculares. | [Demo](https://skullscape.netlify.app) |
 | tinyspace. | Concepto de web de mobiliario y catálogo. | [Demo](https://tinyyspace.netlify.app) |
@@ -20,16 +21,17 @@ Portfolio personal de sistemas y proyectos digitales. Incluye Atlas y los tres p
 
 ## Desarrollo
 
-HTML, CSS y JavaScript sin dependencias de ejecución ni gestor de paquetes.
+El portfolio usa HTML, CSS y JavaScript. Tramo es una aplicación React con Vite, Supabase y funciones de Netlify. Dependencias fijadas y lockfile versionado.
 
 ```sh
-node --check portfolio.js
-node build.mjs
+npm ci
+npm test
+npm run build
 ```
 
 Netlify usa Node.js 22 y publica únicamente `dist/`. El script de construcción copia solo los archivos públicos necesarios. Las imágenes WebP son versiones optimizadas de los originales conservados en `proyectos/`.
 
-La web funciona sin JavaScript; este solo actualiza el año del pie. El tema se adapta a la preferencia del dispositivo. No incorpora analítica, formularios, cookies ni datos financieros de Atlas.
+La página del portfolio funciona sin JavaScript; este solo actualiza el año del pie. Tramo requiere JavaScript. El tema se adapta a la preferencia del dispositivo. El portfolio no incorpora analítica ni datos financieros de Atlas. Tramo tiene sus propios formularios, sesión y almacenamiento independiente. Consulta [la documentación de Tramo](tramo/README.md).
 
 ## Estructura
 
@@ -38,6 +40,8 @@ La web funciona sin JavaScript; este solo actualiza el año del pie. El tema se 
 - `portfolio.js`: actualización del año del pie.
 - `proyectos/`: imágenes y recursos visuales.
 - `build.mjs`: generación de la carpeta pública `dist/`.
+- `tramo/`: aplicación, demo, esquema de datos y pruebas de Tramo.
+- `netlify/functions/`: seguimiento, suscripciones push y sincronización programada.
 - `netlify.toml`: configuración de construcción y publicación.
 
 ## Autor

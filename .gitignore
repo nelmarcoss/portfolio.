@@ -1,3 +1,9 @@
 dist/
 .openai/
 .DS_Store
+node_modules/
+.env
+.env.*
+!.env.example
+playwright-report/
+test-results/

@@ -1,0 +1,25 @@
+{
+  "name": "nel-portfolio-tramo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs && vite build --config tramo/vite.config.js",
+    "dev": "vite --config tramo/vite.config.js --host 0.0.0.0",
+    "test": "node --test tramo/tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.119.0",
+    "lucide-react": "1.72.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "web-push": "4.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "prettier": "3.9.10",
+    "vite": "8.3.8"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}
