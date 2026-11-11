@@ -17,10 +17,10 @@
 
 [[redirects]]
   from = "/tramo"
-  to = "https://tramo-nelmarcoss.netlify.app/"
+  to = "https://tramo.nmclabs.dev/"
   status = 301
 
 [[redirects]]
   from = "/tramo/*"
-  to = "https://tramo-nelmarcoss.netlify.app/:splat"
+  to = "https://tramo.nmclabs.dev/:splat"
   status = 301

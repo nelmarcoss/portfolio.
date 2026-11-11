@@ -11,20 +11,20 @@ Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo y los
 
 | Proyecto | Descripción | Demo |
 | --- | --- | --- |
-| Tramo | Seguimiento de paquetes: presentación, demo y cuenta personal. | [Tramo](https://tramo-nelmarcoss.netlify.app/) |
-| Atlas | Seguimiento privado del patrimonio; presentación pública de la aplicación. | [Atlas](https://atlas-nelmarcos.netlify.app/) |
-| SkullScape. | Landing de una marca ficticia de auriculares. | [Demo](https://skullscape.netlify.app) |
-| tinyspace. | Concepto de web de mobiliario y catálogo. | [Demo](https://tinyyspace.netlify.app) |
-| El Estanque Azul | Proyecto académico de una granja ficticia. | [Demo](https://estanqueazul.netlify.app) |
+| Tramo | Seguimiento de paquetes: presentación, demo y cuenta personal. | [Tramo](https://tramo.nmclabs.dev/) |
+| Atlas | Seguimiento privado del patrimonio; presentación pública de la aplicación. | [Atlas](https://atlas.nmclabs.dev/) |
+| SkullScape. | Landing de una marca ficticia de auriculares. | [Demo](https://skullscape.nmclabs.dev) |
+| tinyspace. | Concepto de web de mobiliario y catálogo. | [Demo](https://tinyspace.nmclabs.dev) |
+| El Estanque Azul | Proyecto académico de una granja ficticia. | [Demo](https://estanque.nmclabs.dev) |
 
 ## Publicación
 
-- Portfolio: https://nelmarcos.netlify.app
-- Atlas: https://atlas-nelmarcos.netlify.app/ (alojamiento independiente).
-- Tramo: https://tramo-nelmarcoss.netlify.app/ (alojamiento y repositorio independientes).
+- Portfolio: https://nmclabs.dev
+- Atlas: https://atlas.nmclabs.dev/ (alojamiento independiente).
+- Tramo: https://tramo.nmclabs.dev/ (alojamiento y repositorio independientes).
 - Las antiguas rutas `/tramo/*` redirigen al sitio independiente.
 - Cada cambio en `main` se publica mediante la conexión existente entre GitHub y Netlify.
-- Se utilizan las direcciones gratuitas de Netlify. No hay un dominio propio previsto.
+- Dominio propio `nmclabs.dev`, con subdominios para cada proyecto y alojamiento en Netlify.
 
 ## Desarrollo
 
