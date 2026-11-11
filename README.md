@@ -6,7 +6,7 @@ Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo y los
 
 | Proyecto | Descripción | Demo |
 | --- | --- | --- |
-| Tramo | Seguimiento de paquetes: presentación, demo y cuenta personal. | [Tramo](https://tramo-nelmarcos.netlify.app/) |
+| Tramo | Seguimiento de paquetes: presentación, demo y cuenta personal. | [Tramo](https://tramo-nelmarcoss.netlify.app/) |
 | Atlas | Seguimiento privado del patrimonio; presentación pública de la aplicación. | [Atlas](https://atlas-nelmarcos.netlify.app/) |
 | SkullScape. | Landing de una marca ficticia de auriculares. | [Demo](https://skullscape.netlify.app) |
 | tinyspace. | Concepto de web de mobiliario y catálogo. | [Demo](https://tinyyspace.netlify.app) |
@@ -16,7 +16,7 @@ Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo y los
 
 - Portfolio: https://nelmarcos.netlify.app
 - Atlas: https://atlas-nelmarcos.netlify.app/ (alojamiento independiente).
-- Tramo: https://tramo-nelmarcos.netlify.app/ (alojamiento y repositorio independientes).
+- Tramo: https://tramo-nelmarcoss.netlify.app/ (alojamiento y repositorio independientes).
 - Las antiguas rutas `/tramo/*` redirigen al sitio independiente.
 - Cada cambio en `main` se publica mediante la conexión existente entre GitHub y Netlify.
 - Se utilizan las direcciones gratuitas de Netlify. No hay un dominio propio previsto.
@@ -32,7 +32,7 @@ node build.mjs
 
 Netlify usa Node.js 22 y publica únicamente `dist/`. El script de construcción copia solo los archivos públicos necesarios. Las imágenes WebP son versiones optimizadas de los originales conservados en `proyectos/`.
 
-La página del portfolio funciona sin JavaScript; este solo actualiza el año del pie. Tramo, alojado de forma independiente, requiere JavaScript. El tema se adapta a la preferencia del dispositivo. El portfolio no incorpora analítica ni datos financieros de Atlas. Tramo tiene sus propios formularios, sesión y almacenamiento independiente. El código de Tramo está en https://github.com/nelmarcoss/Tramo. y su documentación está en ese repositorio.
+La página del portfolio funciona sin JavaScript; este solo actualiza el año del pie. Tramo, alojado de forma independiente, requiere JavaScript. El tema se adapta a la preferencia del dispositivo. El portfolio no incorpora analítica ni datos financieros de Atlas. Tramo tiene sus propios formularios, sesión y almacenamiento independiente. El código de Tramo está en https://github.com/nelmarcoss/Tramo y su documentación está en ese repositorio.
 
 ## Estructura
 
