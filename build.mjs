@@ -8,4 +8,5 @@ for (const file of ['index.html', 'estilos.css', 'portfolio.js']) {
 for (const file of ['favicon2.png', 'skullscape.webp', 'tinyspace.webp', 'estanque-azul.webp']) {
   await cp(`proyectos/${file}`, `dist/proyectos/${file}`);
 }
+await cp('cuenta', 'dist/cuenta', { recursive: true });
 console.log('Portfolio built in dist/');

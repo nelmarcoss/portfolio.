@@ -11,7 +11,7 @@ Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo, Plat
 
 | Proyecto | Descripción | Demo |
 | --- | --- | --- |
-| Platto | Carta digital para restaurantes, editor y QR permanente. Primera versión en preparación. | Repositorio independiente; publicación pendiente. |
+| Platto | Carta digital para restaurantes, demo de carnes y bodega, editor y QR permanente. | [Platto](https://platto.nmclabs.dev/) |
 | Tramo | Seguimiento de paquetes: presentación, demo y cuenta personal. | [Tramo](https://tramo.nmclabs.dev/) |
 | Atlas | Seguimiento privado del patrimonio; presentación pública de la aplicación. | [Atlas](https://atlas.nmclabs.dev/) |
 | SkullScape. | Landing de una marca ficticia de auriculares. | [Demo](https://skullscape.nmclabs.dev) |
@@ -23,7 +23,7 @@ Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo, Plat
 - Portfolio: https://nmclabs.dev
 - Atlas: https://atlas.nmclabs.dev/ (alojamiento independiente).
 - Tramo: https://tramo.nmclabs.dev/ (alojamiento y repositorio independientes).
-- Platto: ficha de presentación incluida; enlace público pendiente de activar. Código en su repositorio privado independiente https://github.com/nelmarcoss/Platto.
+- Platto: https://platto.nmclabs.dev/ (alojamiento y repositorio independientes). Código en https://github.com/nelmarcoss/Platto.
 - Las antiguas rutas `/tramo/*` redirigen al sitio independiente.
 - Cada cambio en `main` se publica mediante la conexión existente entre GitHub y Netlify.
 - Dominio propio `nmclabs.dev`, con subdominios para cada proyecto y alojamiento en Netlify.
@@ -53,3 +53,9 @@ La página del portfolio funciona sin JavaScript; este solo actualiza el año de
 ## Autor
 
 **Nel** · [LinkedIn](https://www.linkedin.com/in/nelmarcos/) · [Contacto](mailto:nelmarcos@icloud.com)
+
+## Acceso compartido de NMCLabs
+
+`https://nmclabs.dev/cuenta/` es la página neutral de entrada a Platto y Tramo y el destino previsto de respaldo para Supabase Auth. No recibe contraseñas, no interpreta ni reenvía tokens y no añade seguimiento. Los enlaces válidos de confirmación o recuperación siguen las direcciones explícitas de cada aplicación; un enlace inválido o una redirección no autorizada puede caer en esta página común.
+
+Después de publicar esta página, configurar el **Site URL** del Supabase compartido con `https://nmclabs.dev/cuenta/`, conservando todas las **Redirect URLs** válidas de Tramo y Platto. No es necesario cambiar las rutas de las aplicaciones. Las plantillas compartidas de Auth deben tener la marca NMCLabs; los avisos de paquetes de Tramo conservan su propia marca.
