@@ -978,7 +978,7 @@ function App() {
             <span>
               Una idea de{" "}
               <a href="/">
-                Nel Marcos
+                Nel
                 <ArrowUpRight size={13} />
               </a>
             </span>
@@ -1018,7 +1018,7 @@ function App() {
               </div>
             </div>
             <a href="/">
-              Un proyecto de Nel Marcos
+              Un proyecto de Nel
               <ArrowUpRight size={16} />
             </a>
           </aside>
@@ -1694,7 +1694,7 @@ function App() {
                 tramo. <span>Tus paquetes, en cada tramo.</span>
               </span>
               <a href="/">
-                Hecho por Nel Marcos
+                Hecho por Nel
                 <ArrowUpRight size={13} />
               </a>
             </footer>
@@ -1765,7 +1765,7 @@ function App() {
               <p className="eyebrow">PRIVACIDAD</p>
               <h2>Tu espacio, con claridad.</h2>
               <p>
-                Tramo es un proyecto de Nel Marcos. Las cuentas y los paquetes
+                Tramo es un proyecto de Nel. Las cuentas y los paquetes
                 se almacenan en un proyecto independiente de Supabase, en la
                 Unión Europea. Cada usuario accede únicamente a sus propios
                 datos.
