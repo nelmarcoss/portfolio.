@@ -2,6 +2,15 @@
 
 Portfolio personal de sistemas y proyectos digitales. Incluye Atlas y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
 
+## Proyectos incluidos
+
+| Proyecto | Descripción | Demo |
+| --- | --- | --- |
+| Atlas | Seguimiento privado del patrimonio; presentación pública de la aplicación. | [Atlas](https://atlas-nelmarcos.netlify.app/) |
+| SkullScape. | Landing de una marca ficticia de auriculares. | [Demo](https://skullscape.netlify.app) |
+| tinyspace. | Concepto de web de mobiliario y catálogo. | [Demo](https://tinyyspace.netlify.app) |
+| El Estanque Azul | Proyecto académico de una granja ficticia. | [Demo](https://estanqueazul.netlify.app) |
+
 ## Publicación
 
 - Portfolio: https://nelmarcos.netlify.app
@@ -21,3 +30,16 @@ node build.mjs
 Netlify usa Node.js 22 y publica únicamente `dist/`. El script de construcción copia solo los archivos públicos necesarios. Las imágenes WebP son versiones optimizadas de los originales conservados en `proyectos/`.
 
 La web funciona sin JavaScript; este solo actualiza el año del pie. El tema se adapta a la preferencia del dispositivo. No incorpora analítica, formularios, cookies ni datos financieros de Atlas.
+
+## Estructura
+
+- `index.html`: presentación, proyectos, sobre mí y contacto.
+- `estilos.css`: diseño adaptable y temas claro y oscuro.
+- `portfolio.js`: actualización del año del pie.
+- `proyectos/`: imágenes y recursos visuales.
+- `build.mjs`: generación de la carpeta pública `dist/`.
+- `netlify.toml`: configuración de construcción y publicación.
+
+## Autor
+
+**Nel Marcos** · [LinkedIn](https://www.linkedin.com/in/nelmarcos/) · [Contacto](mailto:nelmarcos@icloud.com)
