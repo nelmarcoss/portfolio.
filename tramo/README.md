@@ -1,6 +1,6 @@
 # Tramo
 
-Tus paquetes, en cada tramo. Aplicación de seguimiento de Nel Marcos, alojada bajo el portfolio existente y versionada en este repositorio.
+Tus paquetes, en cada tramo. Aplicación de seguimiento de Nel, alojada bajo el portfolio existente y versionada en este repositorio.
 
 ## Rutas
 
