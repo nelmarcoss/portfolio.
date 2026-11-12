@@ -14,3 +14,7 @@
 @media(prefers-color-scheme:dark){.platto-art{background:#412d30;color:#f1d9cb}.platto-art-menu{border-color:#7a5d5b}}
 @media(max-width:680px){.platto-art{padding:26px;min-height:310px}.platto-wordmark{font-size:78px}.platto-plate{width:40px;height:40px}.platto-plate:before{inset:6px}.platto-art-menu>div{font-size:15px}}
 
+
+/* El símbolo original vuelve a cerrar la cabecera, a la derecha. */
+.header{display:grid;grid-template-columns:auto 1fr auto;column-gap:24px}.header nav{justify-self:end}.header-mark{display:grid;place-items:center;min-width:44px;min-height:44px}.header-mark img{width:38px;height:38px;border-radius:50%}
+@media(max-width:680px){.header{display:grid;grid-template-columns:1fr auto;row-gap:8px;column-gap:16px;padding-block:14px 10px}.brand{grid-column:1;grid-row:1}.header-mark{grid-column:2;grid-row:1}.header-mark img{width:32px;height:32px}.header nav{grid-column:1/-1;grid-row:2;justify-self:stretch;justify-content:space-between;margin-top:0}}
