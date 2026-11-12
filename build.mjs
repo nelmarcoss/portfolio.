@@ -5,7 +5,7 @@ await mkdir('dist/proyectos', { recursive: true });
 for (const file of ['index.html', 'estilos.css', 'portfolio.js', 'robots.txt', 'sitemap.xml', 'social-preview.png']) {
   await cp(file, `dist/${file}`);
 }
-for (const file of ['favicon2.png', 'skullscape-cover.webp', 'tinyspace-cover.webp', 'estanque-azul-cover.webp', 'estanque-original.webp', 'estanque-azul.html']) {
+for (const file of ['favicon2.png', 'skullscape-cover.webp', 'tinyspace-cover.webp', 'estanque-azul-cover.webp', 'estanque-original.webp', 'estanque-azul.html', 'showcase-platto.png', 'showcase-tramo.png', 'showcase-atlas.png', 'showcase-granja.png']) {
   await cp(`proyectos/${file}`, `dist/proyectos/${file}`);
 }
 console.log('Portfolio built in dist/');
