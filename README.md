@@ -39,7 +39,7 @@ node build.mjs
 
 Netlify usa Node.js 22 y publica únicamente `dist/`. El script de construcción copia solo los archivos públicos necesarios. Las imágenes WebP son versiones optimizadas de los originales conservados en `proyectos/`.
 
-La página del portfolio funciona sin JavaScript; este solo actualiza el año del pie. Tramo, alojado de forma independiente, requiere JavaScript. El tema se adapta a la preferencia del dispositivo. El portfolio no incorpora analítica ni datos financieros de Atlas. Tramo tiene sus propios formularios y sesión. Platto y Tramo comparten la infraestructura de Supabase con tablas y políticas de acceso separadas; las webs y repositorios son independientes. El código de Tramo está en https://github.com/nelmarcoss/Tramo y su documentación está en ese repositorio.
+La página del portfolio funciona sin JavaScript; este solo actualiza el año del pie. Tramo, alojado de forma independiente, requiere JavaScript. El tema se adapta a la preferencia del dispositivo. El portfolio no incorpora analítica ni datos financieros de Atlas. Tramo tiene sus propios formularios y sesión. Platto es una presentación comercial estática con demo local, sin cuentas ni conexión a Supabase; las soluciones contratadas se prepararán de forma independiente para cada cliente. El código de Tramo está en https://github.com/nelmarcoss/Tramo y su documentación está en ese repositorio.
 
 ## Estructura
 
