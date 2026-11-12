@@ -6,7 +6,7 @@ Las demos y pantallas de cuenta de Platto, Atlas y Tramo llevan `noindex`. Las r
 
 ## Google Search Console: paso del propietario
 
-No hay una conexión autorizada a Google Search Console ni al proveedor DNS en esta sesión. La configuración del código y la publicación no verifican automáticamente la propiedad ni envían sitemaps a Google.
+La publicación del código no verifica automáticamente la propiedad en Search Console ni envía sitemaps a Google. Estos pasos requieren la cuenta de Google del propietario y acceso al proveedor DNS.
 
 1. Entra con tu cuenta en https://search.google.com/search-console y añade una propiedad de tipo **Dominio** con el valor `nmclabs.dev` (sin https ni rutas). Esta propiedad cubre también todos sus subdominios.
 2. Añade en tu proveedor DNS el registro TXT de verificación que indique Google y pulsa **Verificar**. Utiliza el valor exacto que muestre tu cuenta.
