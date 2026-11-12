@@ -20,12 +20,12 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 
 - Platto, Atlas y Tramo como proyectos destacados, con año y contexto.
 - Originales de SkullScape (2023), tinyspace (2022) y El Estanque Azul (2021).
-- La nueva granja de NMC Labs (2026) junto al original, con su caso de estudio.
+- La nueva granja y Tinyspace (2026), junto a sus originales y con sus casos de estudio.
 - Diseño adaptable, tema automático y navegación por teclado.
 
 ## Alcance y límites
 
-Es un portfolio público. No muestra los datos privados de Atlas ni de Tramo. La nueva granja se puede visitar, pero su repositorio es privado. El contacto abre la aplicación de correo del visitante.
+Es un portfolio público. No muestra los datos privados de Atlas ni de Tramo. La nueva granja y Tinyspace se pueden visitar; sus repositorios son privados. El contacto abre la aplicación de correo del visitante.
 
 ## Tecnología
 
@@ -49,7 +49,7 @@ Netlify construye `main` con `node build.mjs` y publica `dist/`. Dominio: https:
 ## Estructura
 
 - `index.html`, `estilos.css`, `portfolio.js`: web del portfolio.
-- `proyectos/`: portadas y caso de estudio de El Estanque Azul.
+- `proyectos/`: portadas y casos de estudio de El Estanque Azul y Tinyspace.
 - `docs/images/`: capturas para la documentación.
 - `build.mjs`, `netlify.toml`: construcción y publicación.
 

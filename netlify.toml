@@ -12,7 +12,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "DENY"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-BqMmADORdj+FPg6TykNcgT+zaeEUgOv9iGxg9ujihxo=' 'sha256-nz7VzC7NG2tNRv3lCV9AYidt/XOs5ZNW8r52g3JJbX8='; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-QpzO7YX31z+DMpQtkG6r3e65OxCuZj5C6zlyJpnlN7g=' 'sha256-BqMmADORdj+FPg6TykNcgT+zaeEUgOv9iGxg9ujihxo=' 'sha256-nz7VzC7NG2tNRv3lCV9AYidt/XOs5ZNW8r52g3JJbX8='; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
 
 
 [[redirects]]

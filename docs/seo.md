@@ -1,8 +1,8 @@
 # Indexación de NMC Labs y sus proyectos
 
-Las páginas públicas de NMC Labs, Platto, Atlas, Tramo y el nuevo Estanque Azul tienen títulos descriptivos, descripción, URL canónica, robots.txt, sitemap y metadatos de Open Graph y Twitter. Los datos estructurados describen proyectos reales; la granja se identifica como ficticia. No se publican reseñas, precios ni direcciones inventados.
+Las páginas públicas de NMC Labs, Platto, Atlas, Tramo, el nuevo Estanque Azul y Tinyspace tienen títulos descriptivos, descripción, URL canónica, robots.txt, sitemap y metadatos de Open Graph y Twitter. Los datos estructurados describen proyectos reales; la granja se identifica como ficticia. No se añaden reseñas, ofertas comerciales ni direcciones inventadas a los datos estructurados; los precios de la tienda Tinyspace se identifican como demostración.
 
-Las demos y pantallas de cuenta de Platto, Atlas y Tramo llevan `noindex`. Las rutas privadas quedan fuera de los sitemaps. La autenticación sigue controlando el acceso; `robots.txt` no es una medida de privacidad.
+Las demos y pantallas de cuenta de Platto, Atlas y Tramo, y la compra simulada de Tinyspace, llevan `noindex`. Las rutas privadas quedan fuera de los sitemaps. La autenticación sigue controlando el acceso; `robots.txt` no es una medida de privacidad.
 
 ## Google Search Console: paso del propietario
 
@@ -10,13 +10,14 @@ La publicación del código no verifica automáticamente la propiedad en Search 
 
 1. Entra con tu cuenta en https://search.google.com/search-console y añade una propiedad de tipo **Dominio** con el valor `nmclabs.dev` (sin https ni rutas). Esta propiedad cubre también todos sus subdominios.
 2. Añade en tu proveedor DNS el registro TXT de verificación que indique Google y pulsa **Verificar**. Utiliza el valor exacto que muestre tu cuenta.
-3. En **Sitemaps**, envía estas cinco direcciones:
+3. En **Sitemaps**, envía estas seis direcciones:
 
 - https://nmclabs.dev/sitemap.xml
 - https://platto.nmclabs.dev/sitemap.xml
 - https://atlas.nmclabs.dev/sitemap.xml
 - https://tramo.nmclabs.dev/sitemap.xml
 - https://granja.nmclabs.dev/sitemap.xml
+- https://tiny.nmclabs.dev/sitemap.xml
 
 4. En **Inspección de URLs**, revisa cada página principal y solicita su indexación. Google limita las solicitudes y decide si indexa cada URL.
 
