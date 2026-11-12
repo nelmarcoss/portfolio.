@@ -1,20 +1,21 @@
 # Procedencia de las imágenes
 
-Las imágenes siguientes se han sustituido por ilustraciones originales dibujadas mediante código el 2026-11-12. No incorporan fotografías, texturas ni recursos visuales descargados. Los nombres y formatos se conservan para mantener compatibles las páginas y los borradores existentes. Las escenas y personas representadas son ficticias.
+## Versión actual · 2026-11-12
 
-- `proyectos/SkullScape.jpg`
-- `proyectos/SkullScape3.jpg`
-- `proyectos/SkullScape4.jpg`
-- `proyectos/estanque-azul.webp`
-- `proyectos/favicon.ico`
-- `proyectos/favicon2.png`
-- `proyectos/granja.jpg`
-- `proyectos/principal.jpg`
-- `proyectos/skullscape.webp`
-- `proyectos/tinyspace.webp`
+Las imágenes de las escenas, productos, personas, mobiliario y platos se han generado con IA mediante la herramienta de generación de imágenes, con estilo fotorrealista comercial. No incorporan las fotografías descargadas originales. Son escenas y personas ficticias. Los formatos web se obtienen de los originales generados, que se conservan en la sesión de trabajo.
 
-Las versiones antiguas siguen presentes en el historial de Git; este cambio sustituye los archivos actuales, sin reescribir el historial.
+### Recursos
 
-También se han dibujado de nuevo los iconos e imágenes de documentación modificados en este mismo commit. Los gráficos SVG existentes del portfolio son originales y se conservan.
+- `proyectos/SkullScape3.jpg` — escena: listener.
+- `proyectos/principal.jpg` — escena: room.
+- `proyectos/granja.jpg` — escena: farm.
+- `proyectos/skullscape.webp` — escena: listener.
+- `proyectos/tinyspace.webp` — escena: room.
+- `proyectos/SkullScape4.jpg` — escena: listener.
+- `proyectos/estanque-azul.webp` — escena: farm.
+- `proyectos/SkullScape.jpg` — escena: listener.
+- `proyectos/skullscape-cover.webp` — escena: listener.
+- `proyectos/tinyspace-cover.webp` — escena: room.
+- `proyectos/estanque-azul-cover.webp` — escena: farm.
 
-Revisión del alcance: se inspeccionaron los ocho repositorios accesibles de la cuenta (Atlas, Tramo, Platto, portfolio, SkullScape, tinyspace, El Estanque Azul y perfil). Los recursos propios de Atlas y Tramo y las imágenes aportadas por usuarios no se sustituyen. No se modifica la licencia de dependencias, fuentes o bibliotecas de iconos.
+Las vistas previas de documentación se actualizan desde las páginas del proyecto. Los iconos funcionales propios y recursos de bibliotecas con su licencia se conservan. Las versiones antiguas siguen en el historial de Git; no se reescribe dicho historial.
