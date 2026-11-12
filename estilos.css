@@ -55,13 +55,18 @@
 .nmc-footer>.brand{font-size:21px}.nmc-footer>.brand img{width:28px;height:28px}
 
 
-/* Shared mobile layout: centered product, then credit and navigation. */
-@media (max-width: 700px) {
- .nmc-footer {grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding-block:16px;text-align:left}
- .nmc-footer > :first-child {grid-column:1/-1;grid-row:1;justify-self:center}
- .nmc-footer .brand,.nmc-footer .logo,.nmc-footer .nmc-footer__brand {font-size:21px;gap:8px;letter-spacing:-.04em}
- .nmc-footer .nmc-footer__brand img,.nmc-footer > .brand img {width:24px;height:24px}
- .nmc-footer .logo-mark {width:23px;height:23px}
- .nmc-footer .nmc-footer__credit {grid-column:1;grid-row:2;justify-self:start;min-height:44px;font-size:10px;white-space:normal}
- .nmc-footer .nmc-footer__nav {grid-column:2;grid-row:2;justify-self:end;justify-content:flex-end;gap:0 10px;font-size:10px}
+/* Compact shared footer: app, studio and links stay on one line. */
+.nmc-footer {display:flex;flex-wrap:nowrap;align-items:center;gap:24px;padding-block:22px}
+.nmc-footer > :first-child {flex:0 0 auto}
+.nmc-footer .nmc-footer__credit {margin-left:auto;flex:0 0 auto;white-space:nowrap;gap:5px}
+.nmc-footer .nmc-footer__nav {display:flex;flex-wrap:nowrap;justify-content:flex-end;flex:0 0 auto;gap:16px}
+@media (max-width:700px) {
+ .nmc-footer {gap:10px;padding-block:12px;font-size:10px;text-align:left}
+ .nmc-footer .brand,.nmc-footer .logo,.nmc-footer .nmc-footer__brand {font-size:18px;gap:5px;letter-spacing:-.04em}
+ .nmc-footer .nmc-footer__brand img,.nmc-footer > .brand img {width:26px;height:26px}
+ .nmc-footer .brand-symbol,.nmc-footer .logo-mark {width:22px;height:22px;flex-shrink:0}
+ .nmc-footer .nmc-footer__credit {font-size:10px}
+ .nmc-footer .nmc-footer__credit svg {width:11px;height:11px}
+ .nmc-footer .nmc-footer__nav {gap:8px;font-size:10px}
+ .nmc-footer > .brand:has(> img) > span,.nmc-footer .nmc-footer__brand:has(img) > span {display:none}
 }
