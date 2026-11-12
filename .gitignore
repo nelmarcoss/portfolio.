@@ -4,6 +4,14 @@ dist/
 node_modules/
 .env
 .env.*
-!.env.example
 playwright-report/
 test-results/
+
+# Local credentials and deployment state must never enter Git.
+.netlify/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+!.env.example

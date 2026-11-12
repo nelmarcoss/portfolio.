@@ -10,6 +10,8 @@
 
 Captura de la versión mantenida en este repositorio.
 
+[![Vista previa en modo oscuro](docs/images/preview-dark.png)](https://nmclabs.dev/)
+
 ## Qué es
 
 Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evolución desde las primeras webs hasta proyectos propios.

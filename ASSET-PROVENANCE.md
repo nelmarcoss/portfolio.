@@ -21,3 +21,7 @@ Las imágenes de las escenas, productos, personas, mobiliario y platos se han ge
 Las vistas previas de documentación se actualizan desde las páginas del proyecto. Los iconos funcionales propios y recursos de bibliotecas con su licencia se conservan. Las versiones antiguas siguen en el historial de Git; no se reescribe dicho historial.
 
 El símbolo circular verde original de Nel (`proyectos/favicon2.png`) se conserva como identidad propia del portfolio y se muestra de nuevo en la cabecera y la pestaña.
+
+## Portada actualizada de SkullScape
+
+`proyectos/skullscape-cover.webp` utiliza el nuevo retrato ficticio de un hombre con auriculares, generado con IA para SkullScape. Sustituye la anterior portada de una mujer; el original generado se conserva en la sesión.
