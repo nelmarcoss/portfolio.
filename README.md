@@ -6,7 +6,7 @@ Espacio de proyectos de NMC Labs, creado por Nel, técnico de sistemas. Incluye 
 
 Platto encabeza los destacados, seguido de Atlas y Tramo; los tres mantienen su formato grande y su ilustración enlaza al proyecto. El símbolo original aparece a la izquierda de NMC Labs. Los destacados muestran su año de inicio (2026), comprobado en Git, e incluyen contexto desplegable. Las primeras webs muestran su año de inicio comprobado en Git: El Estanque Azul (2021), tinyspace (2022) y SkullScape (2023).
 
-El Estanque Azul conserva su enlace original y añade un bloque de evolución con un [caso de estudio](https://nmclabs.dev/proyectos/estanque-azul.html). La reinterpretación tiene su propio repositorio, [nmclabs-estanqueazul](https://github.com/nelmarcoss/nmclabs-estanqueazul); la nueva web está publicada en [granja.nmclabs.dev](https://granja.nmclabs.dev/).
+El Estanque Azul conserva su enlace original y añade un bloque de evolución con un [caso de estudio](https://nmclabs.dev/proyectos/estanque-azul.html). La reinterpretación tiene su propio repositorio privado; la nueva web está publicada en [granja.nmclabs.dev](https://granja.nmclabs.dev/).
 
 
 ## Vista previa
