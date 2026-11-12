@@ -2,9 +2,9 @@
 
 Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo, Platto y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
 
-Platto encabeza los destacados, seguido de Atlas y Tramo; los tres mantienen su formato grande y su ilustración enlaza al proyecto. El símbolo de Nel aparece a la izquierda del nombre. Los destacados incluyen contexto desplegable, y las primeras webs muestran su año de inicio comprobado en Git: El Estanque Azul (2021), tinyspace (2022) y SkullScape (2023).
+Platto encabeza los destacados, seguido de Atlas y Tramo; los tres mantienen su formato grande y su ilustración enlaza al proyecto. El símbolo de Nel aparece a la izquierda del nombre. Los destacados muestran su año de inicio (2026), comprobado en Git, e incluyen contexto desplegable, y las primeras webs muestran su año de inicio comprobado en Git: El Estanque Azul (2021), tinyspace (2022) y SkullScape (2023).
 
-El Estanque Azul conserva su enlace original y añade un bloque de evolución con un [caso de estudio](https://nmclabs.dev/proyectos/estanque-azul.html). La reinterpretación se prepara como proyecto independiente; el enlace a su nueva demo se incorporará cuando el despliegue esté verificado.
+El Estanque Azul conserva su enlace original y añade un bloque de evolución con un [caso de estudio](https://nmclabs.dev/proyectos/estanque-azul.html). La reinterpretación tiene su propio repositorio, [nmclabs-estanqueazul](https://github.com/nelmarcoss/nmclabs-estanqueazul); el enlace a su nueva demo se incorporará cuando el despliegue esté verificado.
 
 
 ## Vista previa
