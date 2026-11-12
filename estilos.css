@@ -50,22 +50,18 @@
  .nmc-footer__credit { justify-self: end; }
  .nmc-footer__nav { grid-column: 1/-1; justify-self: stretch; justify-content: center; }
 }
-@media (max-width: 480px) {
- .nmc-footer { grid-template-columns: minmax(0, 1fr); gap: 4px; text-align: center; }
- .nmc-footer > :first-child, .nmc-footer__credit { justify-self: center; }
- .nmc-footer__nav { grid-column: 1; gap: 2px 16px; }
-}
 
 .nmc-footer{--nmc-line:var(--line);--nmc-ink:var(--ink);--nmc-muted:var(--muted)}
 .nmc-footer>.brand{font-size:21px}.nmc-footer>.brand img{width:28px;height:28px}
 
-/* Compact mobile footer: product and links, then one NMC Labs credit. */
-@media(max-width:480px){
- .nmc-footer{grid-template-columns:minmax(0,1fr) auto;gap:0 12px;padding-block:14px;text-align:left}
- .nmc-footer>:first-child{grid-column:1;grid-row:1;justify-self:start}
- .nmc-footer .brand,.nmc-footer .logo,.nmc-footer .nmc-footer__brand{font-size:21px;gap:8px;letter-spacing:-.04em}
- .nmc-footer .nmc-footer__brand img,.nmc-footer>.brand img{width:24px;height:24px}
- .nmc-footer .logo-mark{width:23px;height:23px}
- .nmc-footer .nmc-footer__credit{grid-column:1/-1;grid-row:2;justify-self:center;min-height:32px;font-size:10px}
- .nmc-footer__nav{grid-column:2;grid-row:1;justify-self:end;justify-content:flex-end;gap:0 12px;font-size:10px}
+
+/* Shared mobile layout: centered product, then credit and navigation. */
+@media (max-width: 700px) {
+ .nmc-footer {grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;padding-block:16px;text-align:left}
+ .nmc-footer > :first-child {grid-column:1/-1;grid-row:1;justify-self:center}
+ .nmc-footer .brand,.nmc-footer .logo,.nmc-footer .nmc-footer__brand {font-size:21px;gap:8px;letter-spacing:-.04em}
+ .nmc-footer .nmc-footer__brand img,.nmc-footer > .brand img {width:24px;height:24px}
+ .nmc-footer .logo-mark {width:23px;height:23px}
+ .nmc-footer .nmc-footer__credit {grid-column:1;grid-row:2;justify-self:start;min-height:44px;font-size:10px;white-space:normal}
+ .nmc-footer .nmc-footer__nav {grid-column:2;grid-row:2;justify-self:end;justify-content:flex-end;gap:0 10px;font-size:10px}
 }
