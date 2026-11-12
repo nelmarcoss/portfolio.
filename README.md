@@ -1,15 +1,17 @@
-# Nel — Portfolio
+# NMC Labs — Sistemas y proyectos digitales
 
-Portfolio personal de sistemas y proyectos digitales. Incluye Atlas, Tramo, Platto y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
+**Un proyecto de [NMC Labs](https://nmclabs.dev/) · 2026.**
 
-Platto encabeza los destacados, seguido de Atlas y Tramo; los tres mantienen su formato grande y su ilustración enlaza al proyecto. El símbolo de Nel aparece a la izquierda del nombre. Los destacados muestran su año de inicio (2026), comprobado en Git, e incluyen contexto desplegable, y las primeras webs muestran su año de inicio comprobado en Git: El Estanque Azul (2021), tinyspace (2022) y SkullScape (2023).
+Espacio de proyectos de NMC Labs, creado por Nel, técnico de sistemas. Incluye Atlas, Tramo, Platto y los tres proyectos originales: SkullScape, tinyspace y El Estanque Azul.
 
-El Estanque Azul conserva su enlace original y añade un bloque de evolución con un [caso de estudio](https://nmclabs.dev/proyectos/estanque-azul.html). La reinterpretación tiene su propio repositorio, [nmclabs-estanqueazul](https://github.com/nelmarcoss/nmclabs-estanqueazul); el enlace a su nueva demo se incorporará cuando el despliegue esté verificado.
+Platto encabeza los destacados, seguido de Atlas y Tramo; los tres mantienen su formato grande y su ilustración enlaza al proyecto. El símbolo original aparece a la izquierda de NMC Labs. Los destacados muestran su año de inicio (2026), comprobado en Git, e incluyen contexto desplegable. Las primeras webs muestran su año de inicio comprobado en Git: El Estanque Azul (2021), tinyspace (2022) y SkullScape (2023).
+
+El Estanque Azul conserva su enlace original y añade un bloque de evolución con un [caso de estudio](https://nmclabs.dev/proyectos/estanque-azul.html). La reinterpretación tiene su propio repositorio, [nmclabs-estanqueazul](https://github.com/nelmarcoss/nmclabs-estanqueazul); la nueva web está publicada en [granja.nmclabs.dev](https://granja.nmclabs.dev/).
 
 
 ## Vista previa
 
-![Portfolio de Nel](docs/images/portfolio.png)
+[Consultar la versión actual de NMC Labs](https://nmclabs.dev/).
 
 ## Proyectos incluidos
 
@@ -20,11 +22,13 @@ El Estanque Azul conserva su enlace original y añade un bloque de evolución co
 | Atlas | Seguimiento privado del patrimonio; presentación pública de la aplicación. | [Atlas](https://atlas.nmclabs.dev/) |
 | SkullScape. | Landing de una marca ficticia de auriculares. | [Demo](https://skullscape.nmclabs.dev) |
 | tinyspace. | Concepto de web de mobiliario y catálogo. | [Demo](https://tinyspace.nmclabs.dev) |
-| El Estanque Azul | Proyecto académico de una granja ficticia. | [Demo](https://estanque.nmclabs.dev) |
+| El Estanque Azul · NMC Labs (2026) | Reinterpretación de la primera web: siete especies y planificador de visitas de demostración. | [Nueva versión](https://granja.nmclabs.dev/) |
+| El Estanque Azul · Original (2021) | Proyecto académico de una granja ficticia. | [Demo](https://estanque.nmclabs.dev) |
 
 ## Publicación
 
-- Portfolio: https://nmclabs.dev
+- NMC Labs: https://nmclabs.dev
+- Nueva granja: https://granja.nmclabs.dev/ (repositorio y alojamiento independientes).
 - Atlas: https://atlas.nmclabs.dev/ (alojamiento independiente).
 - Tramo: https://tramo.nmclabs.dev/ (alojamiento y repositorio independientes).
 - Platto: https://platto.nmclabs.dev/ (alojamiento y repositorio independientes). Código en https://github.com/nelmarcoss/Platto.
@@ -56,5 +60,5 @@ La página del portfolio funciona sin JavaScript; este solo actualiza el año de
 
 ## Autor
 
-**Nel** · [LinkedIn](https://www.linkedin.com/in/nelmarcos/) · [Contacto](mailto:nelmarcos@icloud.com)
+**Nel, creador de NMC Labs** · [LinkedIn](https://www.linkedin.com/in/nelmarcos/) · [Contacto](mailto:nelmarcos@icloud.com)
 
