@@ -51,3 +51,7 @@ Si falta Tinyspace, envía `https://tiny.nmclabs.dev/sitemap.xml` en la propieda
 Cada web dispone de un favicon PNG cuadrado de 96×96, un ICO multirresolución y un icono Apple, accesibles sin autenticación. Las versiones SVG se conservan para navegadores. El favicon de Tramo reproduce el mismo símbolo de ruta que su logo. Google debe volver a rastrear la portada y los iconos; su aparición y el plazo no se pueden garantizar.
 
 Referencias oficiales: [solicitar un nuevo rastreo](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl?hl=es) y [favicons en los resultados](https://developers.google.com/search/docs/appearance/favicon-in-search?hl=es).
+
+## Skullscape · Rediseño 2026
+
+Dominio: https://audio.nmclabs.dev/. Enviar https://audio.nmclabs.dev/sitemap.xml en Search Console: incluye nueve URLs públicas, entre ellas las fichas de S1, S2 y PRO. La bolsa y la compra demo llevan `noindex` y quedan fuera del sitemap. El caso de evolución está en https://nmclabs.dev/proyectos/skullscape.
