@@ -2,12 +2,14 @@
 
 ## Política actual
 
-Solo se promocionan en buscadores cuatro páginas principales:
+Se promocionan en buscadores seis páginas principales. GTA Countdown y 29N son las dos herramientas de actualidad cuya indexación se ha autorizado expresamente:
 
 - https://nmclabs.dev/
 - https://atlas.nmclabs.dev/
 - https://tramo.nmclabs.dev/
 - https://platto.nmclabs.dev/
+- https://gtacountdown.nmclabs.dev/
+- https://29n.nmclabs.dev/
 
 Cada sitio conserva su sitemap, con una sola URL. Las pantallas privadas y las demos de producto siguen fuera de la indexación. Los textos legales de Platto y los casos de evolución del portfolio llevan `noindex, follow` y quedan fuera de sus sitemaps.
 
@@ -23,6 +25,8 @@ En la propiedad de dominio `nmclabs.dev`, conservar o enviar:
 - https://atlas.nmclabs.dev/sitemap.xml
 - https://tramo.nmclabs.dev/sitemap.xml
 - https://platto.nmclabs.dev/sitemap.xml
+- https://gtacountdown.nmclabs.dev/sitemap.xml
+- https://29n.nmclabs.dev/sitemap.xml
 
 Los sitemaps actualizados del portfolio y Platto sustituyen sus listas anteriores: no hace falta borrarlos y crearlos de nuevo. Google deberá volver a procesarlos.
 
@@ -37,7 +41,7 @@ En cada entrada: abrir el sitemap y usar el menú de tres puntos → Quitar site
 
 Quitar un sitemap no elimina por sí solo las páginas de Google. La retirada permanente se consigue cuando Google vuelve a rastrear y lee `noindex`. Para una retirada visible urgente puede usarse Retiradas → Nueva solicitud, seleccionando cuidadosamente el prefijo de la demo; esa ocultación es temporal y complementa `noindex`.
 
-La indexación de las cuatro páginas principales y su posición final siguen dependiendo de Google. Inspección de URLs permite confirmar el estado de cada una. Los cambios pueden tardar días o semanas.
+La indexación de las seis páginas principales y su posición final siguen dependiendo de Google. Inspección de URLs permite confirmar el estado de cada una. Los cambios pueden tardar días o semanas.
 
 ## Contacto
 

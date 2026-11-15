@@ -19,6 +19,7 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 ## Qué incluye
 
 - Platto, Atlas y Tramo como proyectos destacados, con año y contexto.
+- GTA Countdown y 29N como herramientas de actualidad, con fuentes y simulaciones identificadas.
 - Originales de SkullScape (2023), tinyspace (2022) y El Estanque Azul (2021).
 - La nueva granja, Tinyspace y Skullscape (2026), junto a sus originales y con sus casos de estudio.
 - Diseño adaptable, tema automático y navegación por teclado.
