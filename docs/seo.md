@@ -28,3 +28,5 @@ Revisa después **Indexación → Páginas** y **Rendimiento** para distinguir U
 Usa siempre los dominios de producción en las canónicas y en los enlaces públicos de GitHub y LinkedIn. Al añadir una página pública, incluye solo su URL canónica en el sitemap de su propio dominio. No añadas al sitemap cuentas, enlaces con tokens, demos ni URLs de Netlify o localhost.
 
 Tramo genera HTML de inicio legible sin JavaScript y shells de cuenta/demo con `noindex` en el postbuild. Sus metadatos también se actualizan al navegar dentro de la aplicación. Los scripts JSON-LD de las webs estáticas tienen hashes explícitos en su política CSP.
+
+Tinyspace publica treinta fichas de producto con enlaces HTML rastreables, además de tienda, planificador, empresas y proyecto. El checkout demo queda fuera del índice. El Estanque Azul publica siete páginas: inicio, empresas, experiencias, animales, visitas, configurador y proyecto. Ambas webs generan sus metadatos y hashes CSP en el build; no presentan ofertas o reservas comerciales ficticias en los datos estructurados.
