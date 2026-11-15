@@ -30,3 +30,24 @@ Usa siempre los dominios de producción en las canónicas y en los enlaces públ
 Tramo genera HTML de inicio legible sin JavaScript y shells de cuenta/demo con `noindex` en el postbuild. Sus metadatos también se actualizan al navegar dentro de la aplicación. Los scripts JSON-LD de las webs estáticas tienen hashes explícitos en su política CSP.
 
 Tinyspace publica treinta fichas de producto con enlaces HTML rastreables, además de tienda, planificador, empresas y proyecto. El checkout demo queda fuera del índice. El Estanque Azul publica siete páginas: inicio, empresas, experiencias, animales, visitas, configurador y proyecto. Ambas webs generan sus metadatos y hashes CSP en el build; no presentan ofertas o reservas comerciales ficticias en los datos estructurados.
+
+## Comprobación después de enviar los sitemaps
+
+El estado «Correcto» indica que Google ha podido leer el sitemap; las páginas descubiertas no equivalen a páginas indexadas o posicionadas. A fecha de esta versión, los sitemaps públicos contienen:
+
+| Sitio | URLs públicas en el sitemap |
+| --- | ---: |
+| NMC Labs | 3 |
+| Platto | 3 |
+| Atlas | 1 |
+| Tramo | 1 |
+| El Estanque Azul | 7 |
+| Tinyspace | 34 |
+
+Las pantallas privadas y demos excluidas no deben añadirse para aumentar esas cifras. Si Search Console muestra cifras anteriores, necesita volver a leer y procesar el sitemap. No es necesario borrar la propiedad o los sitemaps enviados.
+
+Si falta Tinyspace, envía `https://tiny.nmclabs.dev/sitemap.xml` en la propiedad de dominio ya verificada. Para las páginas principales que no aparecen, usa **Inspección de URLs → Probar URL publicada → Solicitar indexación**. Consulta después el motivo concreto de «Indexación de páginas»: descubierta sin indexar, rastreada sin indexar, duplicada o bloqueada requieren diagnósticos distintos. Repetir solicitudes no acelera el rastreo.
+
+Cada web dispone de un favicon PNG cuadrado de 96×96, un ICO multirresolución y un icono Apple, accesibles sin autenticación. Las versiones SVG se conservan para navegadores. El favicon de Tramo reproduce el mismo símbolo de ruta que su logo. Google debe volver a rastrear la portada y los iconos; su aparición y el plazo no se pueden garantizar.
+
+Referencias oficiales: [solicitar un nuevo rastreo](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl?hl=es) y [favicons en los resultados](https://developers.google.com/search/docs/appearance/favicon-in-search?hl=es).
