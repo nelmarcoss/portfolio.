@@ -70,3 +70,5 @@
  .nmc-footer .nmc-footer__nav {gap:8px;font-size:10px}
  .nmc-footer > .brand:has(> img) > span,.nmc-footer .nmc-footer__brand:has(img) > span {display:none}
 }
+.project-evolution{display:grid;grid-template-columns:1fr;gap:12px;padding:22px;background:var(--surface);border:1px solid var(--line);border-radius:8px}.project-evolution h4{margin:0;font-size:19px}.project-evolution>a{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:0;padding:13px 16px;border:1px solid var(--line);border-radius:5px;min-height:48px;font-size:12px;line-height:1.5}.project-evolution>a:last-child{background:var(--ink);border-color:var(--ink);color:var(--bg)}.project-evolution>a:last-child:hover{background:var(--accent);border-color:var(--accent);color:#fff}.project-evolution>a:hover{border-color:var(--accent)}
+@media(max-width:600px){.project-evolution{padding:18px;gap:14px}.project-evolution>a{font-size:13px}.project-evolution .eyebrow{line-height:1.6;flex-wrap:wrap}}
