@@ -29,7 +29,7 @@ Usa siempre los dominios de producción en las canónicas y en los enlaces públ
 
 Tramo genera HTML de inicio legible sin JavaScript y shells de cuenta/demo con `noindex` en el postbuild. Sus metadatos también se actualizan al navegar dentro de la aplicación. Los scripts JSON-LD de las webs estáticas tienen hashes explícitos en su política CSP.
 
-Tinyspace publica treinta fichas de producto con enlaces HTML rastreables, además de tienda, planificador, empresas y proyecto. El checkout demo queda fuera del índice. El Estanque Azul publica nueve páginas: inicio, empresas, experiencias, la granja, la mesa, animales, visitas, configurador y proyecto. Ambas webs generan sus metadatos y hashes CSP en el build; no presentan ofertas o reservas comerciales ficticias en los datos estructurados.
+Tinyspace publica treinta fichas de producto con enlaces HTML rastreables, además de tienda, planificador, empresas y proyecto. El checkout demo queda fuera del índice. El Estanque Azul publica ocho páginas indexables: el planificador está en la portada y la antigua ruta `/configurador/` se conserva como vista compatible con `noindex` y canónica hacia la portada. Ambas webs generan sus metadatos y hashes CSP en el build; no presentan ofertas o reservas comerciales ficticias en los datos estructurados.
 
 ## Comprobación después de enviar los sitemaps
 
@@ -41,7 +41,7 @@ El estado «Correcto» indica que Google ha podido leer el sitemap; las páginas
 | Platto | 3 |
 | Atlas | 1 |
 | Tramo | 1 |
-| El Estanque Azul | 9 |
+| El Estanque Azul | 8 |
 | Tinyspace | 34 |
 
 Las pantallas privadas y demos excluidas no deben añadirse para aumentar esas cifras. Si Search Console muestra cifras anteriores, necesita volver a leer y procesar el sitemap. No es necesario borrar la propiedad o los sitemaps enviados.
