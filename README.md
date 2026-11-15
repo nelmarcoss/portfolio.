@@ -42,7 +42,7 @@ La página funciona sin JavaScript; el script solo actualiza el año del pie.
 
 ## Publicación
 
-Incluye SEO orgánico: títulos descriptivos, canónicas, vistas previas al compartir, datos estructurados, `robots.txt` y `sitemap.xml`. Las pantallas de cuenta y demos no forman parte del sitemap y llevan `noindex` cuando existen. [Guía de verificación en Search Console](docs/seo.md).
+La portada es la única página indexable del portfolio; los casos de evolución conservan sus enlaces y llevan `noindex`. Incluye SEO orgánico: títulos descriptivos, canónicas, vistas previas al compartir, datos estructurados, `robots.txt` y `sitemap.xml`. Las pantallas de cuenta y demos no forman parte del sitemap y llevan `noindex` cuando existen. [Guía de verificación en Search Console](docs/seo.md).
 
 Netlify construye `main` con `node build.mjs` y publica `dist/`. Dominio: https://nmclabs.dev/. Cada aplicación se aloja de forma independiente.
 
@@ -56,3 +56,5 @@ Netlify construye `main` con `node build.mjs` y publica `dist/`. Dominio: https:
 ## Autoría
 
 Creado por **Nel**, detrás de [NMC Labs](https://nmclabs.dev/). [Perfil de GitHub](https://github.com/nelmarcoss) · [LinkedIn](https://www.linkedin.com/in/nelmarcos/).
+
+Contacto público: [info@nmclabs.dev](mailto:info@nmclabs.dev).

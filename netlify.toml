@@ -24,3 +24,9 @@
   from = "/tramo/*"
   to = "https://tramo.nmclabs.dev/:splat"
   status = 301
+
+# Case studies are available from the portfolio, without separate search entries.
+[[headers]]
+  for = "/proyectos/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, follow"
