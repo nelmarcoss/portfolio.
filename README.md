@@ -59,3 +59,5 @@ Netlify construye `main` con `node build.mjs` y publica `dist/`. Dominio: https:
 Creado por **Nel**, detrás de [NMC Labs](https://nmclabs.dev/). [Perfil de GitHub](https://github.com/nelmarcoss) · [LinkedIn](https://www.linkedin.com/in/nelmarcos/).
 
 Contacto público: [info@nmclabs.dev](mailto:info@nmclabs.dev).
+
+Las tarjetas de Platto, Atlas, Tramo, GTA VI y 29N explican de forma visible la idea, el reto y la decisión de diseño de cada proyecto.
