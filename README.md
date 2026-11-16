@@ -60,4 +60,4 @@ Creado por **Nel**, detrás de [NMC Labs](https://nmclabs.dev/). [Perfil de GitH
 
 Contacto público: [info@nmclabs.dev](mailto:info@nmclabs.dev).
 
-Las tarjetas de Platto, Atlas, Tramo, GTA VI y 29N explican de forma visible la idea, el reto y la decisión de diseño de cada proyecto.
+Las tarjetas de Platto, Atlas, Tramo, GTA VI y 29N explican la idea, el reto y la decisión de diseño de cada proyecto en un desplegable cerrado al entrar.
