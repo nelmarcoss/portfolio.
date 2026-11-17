@@ -24,4 +24,8 @@ El símbolo circular verde original de Nel (`proyectos/favicon2.png`) se conserv
 
 ## Portada actualizada de SkullScape
 
-`proyectos/skullscape-cover.webp` utiliza el nuevo retrato ficticio de un hombre con auriculares, generado con IA para SkullScape. Sustituye la anterior portada de una mujer; el original generado se conserva en la sesión.
+`proyectos/skullscape-cover.webp` utiliza el nuevo retrato ficticio de un hombre con auriculares, generado con IA para SkullScape Sustituye la anterior portada de una mujer; el original generado se conserva en la sesión.
+
+## Composiciones comerciales de marca · 2026
+
+Las portadas `*-brand.svg` y sus versiones WebP son composiciones vectoriales propias de NMC Labs: marca y una representación del producto (carta, patrimonio, recorrido, agenda, plano, granja, auriculares y actualidad). No son capturas de las páginas ni representan resultados electorales o reservas reales. Los archivos `showcase-*.png` de los proyectos nuevos reproducen estas composiciones. Las capturas históricas de los originales se conservan como documentación de su evolución.

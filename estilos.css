@@ -115,3 +115,5 @@ details.project-origin{display:block;grid-column:1/-1;padding:0!important}detail
 .lineage-footer a.project-cta{font-size:14px;gap:20px}
 @media(prefers-color-scheme:dark){.projects a.project-cta:hover{color:#13251b}}
 @media(max-width:600px){.projects a.project-cta{font-size:13px}.lineage-footer a.project-cta{width:100%;font-size:13px}}
+
+.puntual-art.brand-art{padding:0;gap:0;justify-content:center;background:#e4e9d9}.puntual-art.brand-art>span{display:none}.puntual-art.brand-art img{width:100%;height:auto;object-fit:contain;border:0;border-radius:0;box-shadow:none}.current-tool-image img{object-fit:cover}

@@ -18,19 +18,20 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 
 ## Qué incluye
 
-- Platto, Puntual, Atlas y Tramo como proyectos destacados, con año y contexto.
+- platto, Puntual, atlas y tramo como proyectos destacados, con año y contexto.
 - Puntual: presentación comercial y demo conectada de reservas y agenda para barberías y peluquerías.
 - GTA VI · Cuenta atrás y 29N como herramientas de actualidad. El especial electoral reúne sondeos con fuentes, candidaturas, cuatro elecciones, provincias y pactómetro.
 - Originales de SkullScape (2023), tinyspace (2022) y El Estanque Azul (2021).
 - La nueva granja, Tinyspace y Skullscape (2026), junto a sus originales y con sus casos de estudio.
+- Portadas comerciales de marca, sin puntos decorativos: carta, patrimonio, ruta, agenda, mobiliario, granja, auriculares y actualidad.
 - Botones de proyecto unificados: mismo cuadro, color y tamaño en destacados, actualidad y evolución.
 - Diseño adaptable, tema automático y navegación por teclado.
 
-![Puntual: reservas y agenda para negocios](proyectos/showcase-puntual.png?v=2)
+![Puntual: reservas y agenda para negocios](proyectos/showcase-puntual.png?v=3)
 
 ## Alcance y límites
 
-Es un portfolio público. No muestra los datos privados de Atlas ni de Tramo. La nueva granja, Tinyspace y Skullscape se pueden visitar; sus repositorios son privados. El contacto abre la aplicación de correo del visitante.
+Es un portfolio público. No muestra los datos privados de atlas ni de tramo La nueva granja, Tinyspace y Skullscape se pueden visitar; sus repositorios son privados. El contacto abre la aplicación de correo del visitante.
 
 ## Tecnología
 
@@ -54,7 +55,7 @@ Netlify construye `main` con `node build.mjs` y publica `dist/`. Dominio: https:
 ## Estructura
 
 - `index.html`, `estilos.css`, `portfolio.js`: web del portfolio.
-- `proyectos/`: portadas y casos de estudio de El Estanque Azul, Tinyspace y Skullscape.
+- `proyectos/`: portadas y casos de estudio de El Estanque Azul, Tinyspace y Skullscape
 - `docs/images/`: capturas para la documentación.
 - `build.mjs`, `netlify.toml`: construcción y publicación.
 
@@ -64,4 +65,4 @@ Creado por **Nel**, detrás de [NMC Labs](https://nmclabs.dev/). [Perfil de GitH
 
 Contacto público: [info@nmclabs.dev](mailto:info@nmclabs.dev).
 
-Las tarjetas de Platto, Atlas, Tramo, GTA VI y 29N explican la idea, el reto y la decisión de diseño de cada proyecto en un desplegable cerrado al entrar.
+Las tarjetas de platto, atlas, tramo, GTA VI y 29N explican la idea, el reto y la decisión de diseño de cada proyecto en un desplegable cerrado al entrar.
