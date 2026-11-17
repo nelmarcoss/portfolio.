@@ -23,9 +23,10 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 - GTA VI · Cuenta atrás y 29N como herramientas de actualidad. El especial electoral reúne sondeos con fuentes, candidaturas, cuatro elecciones, provincias y pactómetro.
 - Originales de SkullScape (2023), tinyspace (2022) y El Estanque Azul (2021).
 - La nueva granja, Tinyspace y Skullscape (2026), junto a sus originales y con sus casos de estudio.
+- Botones de proyecto unificados: mismo cuadro, color y tamaño en destacados, actualidad y evolución.
 - Diseño adaptable, tema automático y navegación por teclado.
 
-![Puntual: reservas y agenda para negocios](proyectos/showcase-puntual.png)
+![Puntual: reservas y agenda para negocios](proyectos/showcase-puntual.png?v=2)
 
 ## Alcance y límites
 

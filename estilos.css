@@ -107,3 +107,11 @@ details.project-origin{display:block;grid-column:1/-1;padding:0!important}detail
 .current-tool>details.project-origin>.origin-content{display:grid;grid-template-columns:1fr;gap:17px;padding:3px 0 15px}
 
 .puntual-featured{margin-top:28px}.puntual-art{display:flex;flex-direction:column;justify-content:center;gap:25px;min-width:0;padding:32px;background:#e7ebdd;color:#294c3b}.puntual-art img{display:block;width:100%;height:auto;border:1px solid #c8d3bd;border-radius:7px;box-shadow:0 12px 32px #294c3b18}.puntual-art-label{font-size:9px;letter-spacing:.12em}.puntual-art-caption{display:flex;justify-content:space-between;align-items:center;gap:20px;font-size:11px}.puntual-art:hover{color:#294c3b}.puntual-art:focus-visible{outline-offset:-5px}@media(prefers-color-scheme:dark){.puntual-art{background:#2b3d2e;color:#e1edce}.puntual-art:hover{color:#e1edce}.puntual-art img{border-color:#617658}}@media(max-width:680px){.puntual-art{padding:26px;gap:20px}.puntual-art-label{font-size:8px}}
+
+/* One action style for products, current tools and both stages of a redesign. */
+.projects a.project-cta{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-height:48px;padding:13px 19px;border:1px solid var(--ink);border-radius:5px;background:var(--ink);color:var(--bg);font-size:14px;font-weight:550;line-height:1.5;text-decoration:none;transition:background .2s,border-color .2s,color .2s}
+.projects a.project-cta:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.current-tool-link.project-cta{width:fit-content;margin-top:20px}
+.lineage-footer a.project-cta{font-size:14px;gap:20px}
+@media(prefers-color-scheme:dark){.projects a.project-cta:hover{color:#13251b}}
+@media(max-width:600px){.projects a.project-cta{font-size:13px}.lineage-footer a.project-cta{width:100%;font-size:13px}}
