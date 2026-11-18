@@ -1,0 +1,8 @@
+{
+  "name": "nmclabs-portfolio",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=22"},
+  "scripts": {"build": "node build.mjs", "covers": "node scripts/build-project-covers.mjs", "test": "node --test tests/*.test.mjs"},
+  "devDependencies": {"sharp": "0.35.5"}
+}

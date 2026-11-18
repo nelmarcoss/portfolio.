@@ -71,3 +71,9 @@ Las tarjetas de platto, atlas, tramo, GTA VI y 29N explican la idea, el reto y l
 ## Idioma del sistema
 
 La interfaz detecta los idiomas preferidos del navegador: español o inglés, con inglés como alternativa si no hay coincidencia. La traducción se incluye en los archivos de la web, sin servicios externos. Los valores de formularios y los registros no se modifican. Las URL, los datos guardados y la versión española para buscadores se mantienen.
+
+## Portadas según el sistema
+
+Las 13 portadas de proyectos comparten una composición de marca y producto, con ilustraciones independientes para modo claro y oscuro. `<picture>` selecciona la variante del sistema y responde a cambios de apariencia. Los proyectos originales conservan sus capturas reales dentro del mismo marco.
+
+Para regenerarlas: `npm ci`, `npm run covers` y `npm run build`. Los archivos finales se versionan para no regenerar imágenes durante cada despliegue.

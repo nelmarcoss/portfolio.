@@ -1,4 +1,4 @@
-import { cp, mkdir, rm } from 'node:fs/promises';
+import { cp, mkdir, rm, readdir } from 'node:fs/promises';
 
 await rm('dist', { recursive: true, force: true });
 await mkdir('dist/proyectos', { recursive: true });
@@ -12,3 +12,8 @@ console.log('Portfolio built in dist/');
 
 // Interface translations are bundled locally; no translation service is contacted.
 for (const file of ["system-language-init.mjs", "system-language.mjs", "interface-en.mjs"]) await cp(file, `dist/${file}`);
+
+// Mode-specific cover files; the browser downloads only its selected variant.
+for (const file of await readdir("proyectos")) {
+  if (/-(?:brand|original-card)-(?:light|dark)\.webp$/.test(file)) await cp(`proyectos/${file}`, `dist/proyectos/${file}`);
+}
