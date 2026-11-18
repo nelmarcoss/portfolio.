@@ -18,7 +18,8 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 
 ## Qué incluye
 
-- platto, Puntual, atlas y tramo como proyectos destacados, con año y contexto.
+- platto, Puntual, amano, atlas y tramo como proyectos destacados, con año y contexto.
+- amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
 - Puntual: presentación comercial y demo conectada de reservas y agenda para barberías y peluquerías.
 - GTA VI · Cuenta atrás y 29N como herramientas de actualidad. El especial electoral reúne sondeos con fuentes, candidaturas, cuatro elecciones, provincias y pactómetro.
 - Originales de SkullScape (2023), tinyspace (2022) y El Estanque Azul (2021).
