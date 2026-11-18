@@ -67,3 +67,7 @@ Creado por **Nel**, detrás de [NMC Labs](https://nmclabs.dev/). [Perfil de GitH
 Contacto público: [info@nmclabs.dev](mailto:info@nmclabs.dev).
 
 Las tarjetas de platto, atlas, tramo, GTA VI y 29N explican la idea, el reto y la decisión de diseño de cada proyecto en un desplegable cerrado al entrar.
+
+## Idioma del sistema
+
+La interfaz detecta los idiomas preferidos del navegador: español o inglés, con inglés como alternativa si no hay coincidencia. La traducción se incluye en los archivos de la web, sin servicios externos. Los valores de formularios y los registros no se modifican. Las URL, los datos guardados y la versión española para buscadores se mantienen.

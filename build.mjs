@@ -9,3 +9,6 @@ for (const file of ['amano-brand.webp', 'showcase-amano.png', 'platto-brand.svg'
   await cp(`proyectos/${file}`, `dist/proyectos/${file}`);
 }
 console.log('Portfolio built in dist/');
+
+// Interface translations are bundled locally; no translation service is contacted.
+for (const file of ["system-language-init.mjs", "system-language.mjs", "interface-en.mjs"]) await cp(file, `dist/${file}`);
