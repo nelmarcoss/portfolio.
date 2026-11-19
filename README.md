@@ -36,7 +36,7 @@ Es un portfolio público. No muestra los datos privados de atlas ni de tramo La 
 
 ## Tecnología
 
-HTML, CSS y JavaScript sin dependencias de ejecución. Node.js 22 para construir.
+HTML, CSS y JavaScript sin dependencias de ejecución. Node.js 26.13.1 LTS para construir.
 
 ## Desarrollo y comprobación
 
@@ -80,14 +80,14 @@ Para regenerarlas: `npm ci`, `npm run covers` y `npm run build`. Los archivos fi
 
 ## Entorno de desarrollo
 
-Usamos Node.js **22.23.5** y npm **11.21.3**, fijados también en Netlify. Antes de instalar:
+Usamos Node.js **26.13.1** y npm **12.2.3**, fijados también en Netlify. Antes de instalar:
 
 ```sh
 nvm use
-npm install --global npm@11.21.3
+npm install --global npm@12.2.3
 npm ci
 npm test
 npm run build
 ```
 
-npm 12 queda pendiente de compatibilidad: su nueva restricción de dependencias remotas bloquea una dependencia opcional de Tailwind en Atlas. Mantenemos la última versión de npm 11 sin desactivar esa protección. Las dependencias se guardan con versiones exactas; se oculta el aviso genérico de actualización de npm, pero la auditoría sigue activa. Revisión del 19 de noviembre de 2026: pruebas, compilación y auditoría completadas sin avisos de vulnerabilidades conocidas.
+Todas las dependencias directas se han contrastado con la etiqueta estable `latest` del registro npm. Node 26.13.1 es la versión estable LTS; se excluyen las versiones alfa y beta. El entorno usa npm 12.2.3, lockfiles actualizados y versiones exactas. Se mantienen activas las comprobaciones de auditoría, los avisos de actualización y la restricción de descargas remotas de npm 12.
