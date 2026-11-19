@@ -21,7 +21,7 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 - platto, Puntual, amano, atlas y tramo como proyectos destacados, con año y contexto.
 - amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
 - Puntual: presentación comercial y demo conectada de reservas y agenda para barberías y peluquerías.
-- GTA VI · Cuenta atrás y 29N como herramientas de actualidad. El especial electoral reúne sondeos con fuentes, candidaturas, cuatro elecciones, provincias y pactómetro.
+- GTA VI · Cuenta atrás conserva la espera original con simulación histórica, portada de paisajes, recuerdos descargables y cronología regional; PC figura por confirmar. GTA VI y 29N son herramientas de actualidad. El especial electoral reúne sondeos con fuentes, candidaturas, cuatro elecciones, provincias y pactómetro.
 - Originales de SkullScape (2023), tinyspace (2022) y El Estanque Azul (2021).
 - La nueva granja, Tinyspace y Skullscape (2026), junto a sus originales y con sus casos de estudio.
 - Portadas comerciales de marca, sin puntos decorativos: carta, patrimonio, ruta, agenda, mobiliario, granja, auriculares y actualidad.
@@ -45,7 +45,7 @@ node --check portfolio.js
 node build.mjs
 ```
 
-La página funciona sin JavaScript; el script solo actualiza el año del pie.
+El contenido principal permanece accesible sin JavaScript. Los scripts añaden la adaptación al idioma del navegador y las mejoras de interacción.
 
 ## Publicación
 
@@ -77,3 +77,17 @@ La interfaz detecta los idiomas preferidos del navegador: español o inglés, co
 Las 13 portadas de proyectos comparten una composición de marca y producto, con ilustraciones independientes para modo claro y oscuro. `<picture>` selecciona la variante del sistema y responde a cambios de apariencia. Los proyectos originales conservan sus capturas reales dentro del mismo marco.
 
 Para regenerarlas: `npm ci`, `npm run covers` y `npm run build`. Los archivos finales se versionan para no regenerar imágenes durante cada despliegue.
+
+## Entorno de desarrollo
+
+Usamos Node.js **22.23.5** y npm **11.21.3**, fijados también en Netlify. Antes de instalar:
+
+```sh
+nvm use
+npm install --global npm@11.21.3
+npm ci
+npm test
+npm run build
+```
+
+npm 12 queda pendiente de compatibilidad: su nueva restricción de dependencias remotas bloquea una dependencia opcional de Tailwind en Atlas. Mantenemos la última versión de npm 11 sin desactivar esa protección. Las dependencias se guardan con versiones exactas; se oculta el aviso genérico de actualización de npm, pero la auditoría sigue activa. Revisión del 19 de noviembre de 2026: pruebas, compilación y auditoría completadas sin avisos de vulnerabilidades conocidas.
