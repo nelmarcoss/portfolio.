@@ -6,11 +6,14 @@
 
 ## Vista previa
 
-[![Vista previa de NMC Labs](docs/images/preview.png)](https://nmclabs.dev/)
+<a href="https://nmclabs.dev/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/preview-dark.png">
+    <img src="docs/images/preview.png" width="960" alt="Vista previa de NMC Labs — Sistemas y proyectos digitales">
+  </picture>
+</a>
 
-Captura de la versión mantenida en este repositorio.
-
-[![Vista previa en modo oscuro](docs/images/preview-dark.png)](https://nmclabs.dev/)
+[Vista clara](docs/images/preview.png) · [Vista oscura](docs/images/preview-dark.png) · [Vista móvil](docs/images/mobile.png)
 
 ## Qué es
 
@@ -28,11 +31,9 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 - Botones de proyecto unificados: mismo cuadro, color y tamaño en destacados, actualidad y evolución.
 - Diseño adaptable, tema automático y navegación por teclado.
 
-![Puntual: reservas y agenda para negocios](proyectos/showcase-puntual.png?v=3)
-
 ## Alcance y límites
 
-Es un portfolio público. No muestra los datos privados de atlas ni de tramo La nueva granja, Tinyspace y Skullscape se pueden visitar; sus repositorios son privados. El contacto abre la aplicación de correo del visitante.
+Es un portfolio público. No muestra los datos privados de atlas ni de tramo. La nueva granja, Tinyspace y Skullscape se pueden visitar; sus repositorios son privados. El contacto abre la aplicación de correo del visitante.
 
 ## Tecnología
 
