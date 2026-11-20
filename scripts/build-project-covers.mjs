@@ -3,13 +3,14 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import sharp from 'sharp';
 const root=new URL('../',import.meta.url),dir=new URL('proyectos/',root);
 const photo=async name=>'data:image/png;base64,'+(await readFile(new URL(`cover-assets/${name}.png`,dir))).toString('base64');
-const photos=Object.fromEntries(await Promise.all(['laptop','chair','farm','headphones','steak','leonida'].map(async n=>[n,await photo(n)])));
+const photos=Object.fromEntries(await Promise.all(['laptop','chair','farm','headphones','steak','leonida','estancia'].map(async n=>[n,await photo(n)])));
 const qr = JSON.parse(await readFile(new URL('cover-assets/platto-qr.json', dir),'utf8'));
 const projects=[
  {key:'platto',name:'platto',type:'CARTA DIGITAL',tag:['Tu carta,','siempre a punto'],detail:'Carta · Fotos · QR',accent:'#367642',bright:'#a1d9a1',art:'menu'},
  {key:'atlas',name:'atlas',type:'PATRIMONIO PERSONAL',tag:['Todo tu patrimonio,','con perspectiva'],detail:'Cuentas · Inversiones · Evolución',accent:'#44674d',bright:'#abd1b0',art:'finance'},
  {key:'tramo',name:'tramo',type:'SEGUIMIENTO DE ENVÍOS',tag:['Cada envío,','en su camino'],detail:'Envíos · Ruta · Avisos',accent:'#b84d26',bright:'#ffb08a',art:'tracking'},
  {key:'puntual',name:'puntual',type:'RESERVAS Y AGENDA',tag:['Cada cita,','en su sitio'],detail:'Agenda · Equipo · Clientes',accent:'#255c46',bright:'#9ed6b5',art:'appointments'},
+ {key:'estancia',name:'estancia',type:'HOTELES Y ALOJAMIENTOS',tag:['Cada estancia,','bien cuidada'],detail:'Reservas · Unidades · Huéspedes',accent:'#2d5945',bright:'#aecb9d',art:'hospitality'},
  {key:'amano',name:'amano',type:'INVENTARIO DE EMPRESA',tag:['Cada equipo,','en su sitio'],detail:'Material · Personas · Ubicaciones',accent:'#235d70',bright:'#96cedf',art:'equipment'},
  {key:'tinyspace',name:'tinyspace',type:'MUEBLES Y PLANIFICADOR',tag:['Elige tus muebles.','Imagina tu espacio.'],detail:'Catálogo · Plano · Proyectos',accent:'#586858',bright:'#b9ceb5',art:'furniture'},
  {key:'granja',name:'el estanque azul',type:'EXPERIENCIAS EN LA GRANJA',tag:['Un día en el campo,','bien acompañado'],detail:'Granja · Actividades · Comida',accent:'#6b713b',bright:'#d0d798',art:'farm'},
@@ -20,6 +21,7 @@ const projects=[
 const text=(x,y,s,size=24,fill='currentColor',weight=400)=>`<text x="${x}" y="${y}" font-family="Inter,Arial,sans-serif" font-size="${size}" font-weight="${weight}" fill="${fill}">${s}</text>`;
 function art(p,c){const {ink,muted,panel,line,soft,accent}=c;let a=`<rect x="630" y="80" width="510" height="590" rx="28" fill="${panel}" stroke="${line}"/>`;
 const image=(name,y=165,h=310)=>`<image href="${photos[name]}" x="660" y="${y}" width="450" height="${h}" preserveAspectRatio="xMidYMid meet"/>`;
+if(p.art==='hospitality')a+=text(664,128,'TU ALOJAMIENTO, AL DÍA',21,accent,600)+image('estancia',150,290)+text(664,480,'La próxima llegada, preparada',25,ink,600)+`<rect x="664" y="516" width="440" height="55" rx="10" fill="${soft}"/>`+text(683,550,'Suite familiar · Reserva confirmada',20,accent)+text(664,615,'Hotel · Apartamentos · Casa rural',20,muted);
 if(p.art==='equipment')a+=text(664,125,'EQ-001',21,accent,600)+`<rect x="983" y="102" width="122" height="32" rx="16" fill="${soft}"/>`+text(1016,124,'En uso',17,accent)+image('laptop')+text(664,515,'Portátil de diseño',29,ink,600)+`<path d="M664 542h440" stroke="${line}"/>`+`<circle cx="690" cy="595" r="25" fill="${soft}"/>`+text(677,602,'ML',17,accent,600)+text(730,589,'Marta López',22,ink)+text(730,620,'Oficina central · Diseño',18,muted);
 if(p.art==='menu')a+=text(664,128,'ASCUA',33,ink,600)+text(997,124,'LA CARTA',15,muted)+image('steak',155,280)+text(664,480,'Chuletón a la brasa',30,ink,600)+text(664,516,'Para compartir',20,muted)+`<path d="M664 548h440" stroke="${line}"/>`+text(664,593,'Un solo QR. Tu carta al día.',22,accent)+`<rect x="1020" y="566" width="82" height="82" fill="#fff"/><g fill="#17221c">${qr.data.map((value,i)=>value ? `<rect x="${1028+(i%qr.size)*2}" y="${574+Math.floor(i/qr.size)*2}" width="2" height="2"/>` : '').join('')}</g>`;
 if(p.art==='finance')a+=text(664,128,'MI PATRIMONIO',20,muted,500)+text(664,205,'Una visión completa',33,ink,600)+text(664,241,'Tus cuentas y tus inversiones',20,muted)+`<path d="M669 421H1095M669 371H1095M669 321H1095" stroke="${line}"/><path d="m670 425 62-26 61 11 63-71 66 17 58-70 58 10 56-55" stroke="${accent}" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`+text(664,489,'Cada mes, una referencia',23,ink,500)+text(664,521,'para entender tu evolución.',21,muted)+`<rect x="664" y="557" width="440" height="64" rx="12" fill="${soft}"/>`+text(685,596,'Cuentas   ·   Fondos   ·   Activos',21,accent);

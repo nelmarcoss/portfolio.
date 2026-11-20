@@ -21,7 +21,8 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 
 ## Qué incluye
 
-- platto, Puntual, amano, atlas y tramo como proyectos destacados, con año y contexto.
+- platto, Puntual, amano, estancia, atlas y tramo como proyectos destacados, con año y contexto.
+- estancia: reservas, unidades, limpieza y huéspedes para hoteles, apartamentos y alojamientos rurales; conexiones con canales explicadas como implantación a preparar.
 - amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
 - Puntual: presentación comercial y demo conectada de reservas y agenda para barberías y peluquerías.
 - GTA VI · Cuenta atrás conserva la espera original con simulación histórica, portada de paisajes, recuerdos descargables y cronología regional; PC figura por confirmar. GTA VI y 29N son herramientas de actualidad. El especial electoral reúne sondeos con fuentes, candidaturas, cuatro elecciones, provincias y pactómetro.
@@ -75,7 +76,7 @@ La interfaz detecta los idiomas preferidos del navegador: español o inglés, co
 
 ## Portadas según el sistema
 
-Las 13 portadas de proyectos comparten una composición de marca y producto, con ilustraciones independientes para modo claro y oscuro. `<picture>` selecciona la variante del sistema y responde a cambios de apariencia. Los proyectos originales conservan sus capturas reales dentro del mismo marco.
+Las 14 portadas de proyectos comparten una composición de marca y producto, con ilustraciones independientes para modo claro y oscuro. `<picture>` selecciona la variante del sistema y responde a cambios de apariencia. Los proyectos originales conservan sus capturas reales dentro del mismo marco.
 
 Para regenerarlas: `npm ci`, `npm run covers` y `npm run build`. Los archivos finales se versionan para no regenerar imágenes durante cada despliegue.
 

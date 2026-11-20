@@ -4,3 +4,5 @@
 - Fotos de producto y granja: imágenes de demostración generadas y revisadas en los proyectos amano, Platto, Tinyspace, El Estanque Azul y Skullscape, conservadas en `proyectos/cover-assets/` para reproducir las portadas.
 - GTA VI: imagen oficial de Jason publicada por Rockstar Games, reutilizada del proyecto independiente GTA Countdown. Rockstar Games y Take-Two conservan sus derechos. Portada identificada como proyecto de fans.
 - Originales: capturas reales de las primeras webs, conservadas dentro de un marco claro u oscuro.
+
+- estancia: portada comercial original en variantes clara y oscura, con calendario ilustrativo y fotografía generada con IA para el ejemplo de Finca del Río. No es una captura de la web.
