@@ -22,7 +22,7 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 ## Qué incluye
 
 - platto, Puntual, amano, estancia, atlas y tramo como proyectos destacados, con año y contexto.
-- estancia: reservas, tipos y cupos, tarifas de temporada, prellegada e informes para hoteles, apartamentos y alojamientos rurales; conexiones con canales explicadas como implantación a preparar.
+- estancia: reservas, cantidad de alojamientos, galerías etiquetadas, temporadas, check-in e incidencias del huésped e informes; correos en vista previa y conexiones con canales como implantación a preparar.
 - amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
 - Puntual: presentación comercial y demo conectada de reservas y agenda para barberías y peluquerías.
 - GTA VI · Cuenta atrás conserva la espera original con simulación histórica, portada de paisajes, recuerdos descargables y cronología regional; PC figura por confirmar. GTA VI y 29N son herramientas de actualidad. El especial electoral reúne sondeos con fuentes, candidaturas, cuatro elecciones, provincias y pactómetro.
