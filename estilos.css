@@ -129,3 +129,5 @@ details.project-origin{display:block;grid-column:1/-1;padding:0!important}detail
 @media(prefers-color-scheme:dark){.project-cover,.featured>a:has(>.project-cover),.lineage-image:has(>.project-cover),.current-tool-image:has(>.project-cover){background:#17221c}}
 
 .estancia-featured{margin-top:28px}.estancia-art{display:flex;align-items:center;justify-content:center;min-width:0;overflow:hidden}.estancia-art img{display:block;width:100%;height:auto;object-fit:contain}.estancia-art:focus-visible{outline-offset:-5px}
+
+.apunto-featured{margin-top:28px}.apunto-art{display:flex;align-items:center;justify-content:center;min-width:0;overflow:hidden}.apunto-art img{display:block;width:100%;height:auto;object-fit:contain}.apunto-art:focus-visible{outline-offset:-5px}

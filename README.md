@@ -21,7 +21,8 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 
 ## Qué incluye
 
-- platto, Puntual, amano, estancia, atlas y tramo como proyectos destacados, con año y contexto.
+- platto, Puntual, amano, estancia, apunto, atlas y tramo como proyectos destacados, con año y contexto.
+- apunto: gestión de talleres de coches y motos, presupuestos versionados, seguimiento del cliente, recambios y entrega. Demo local con correos e importes simulados.
 - estancia: reservas, cantidad de alojamientos, galerías etiquetadas, temporadas, check-in e incidencias del huésped e informes; correos en vista previa y conexiones con canales como implantación a preparar.
 - amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
 - Puntual: presentación comercial y demo conectada de reservas y agenda para barberías y peluquerías.
