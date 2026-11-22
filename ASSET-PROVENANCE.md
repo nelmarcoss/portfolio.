@@ -13,3 +13,5 @@
 - nodo v3: composición original en grafito y azul con calculadora de subredes, JSON y huellas de archivos; `nmclabs-nodo/scripts/brand.mjs` permite regenerar las variantes y el favicon.
 
 - nodo v4: símbolo de conexiones original generado para el producto y portadas clara/oscura de 65 herramientas. Fuente conservada en `nmclabs-nodo/assets/brand-source.png`; composición y exportación de iconos mediante `scripts/brand.mjs`.
+
+- nodo v5: las portadas conservan el símbolo de conexiones e incorporan el catálogo de 72 herramientas.
