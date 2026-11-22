@@ -11,3 +11,5 @@
 - `proyectos/readme/`: copias de las imágenes ya usadas en los README de los proyectos. El manifiesto `docs/readme-images.json` identifica su origen y huella. Solo se publican las imágenes de presentación, sin código de los repositorios privados.
 
 - nodo v3: composición original en grafito y azul con calculadora de subredes, JSON y huellas de archivos; `nmclabs-nodo/scripts/brand.mjs` permite regenerar las variantes y el favicon.
+
+- nodo v4: símbolo de conexiones original generado para el producto y portadas clara/oscura de 65 herramientas. Fuente conservada en `nmclabs-nodo/assets/brand-source.png`; composición y exportación de iconos mediante `scripts/brand.mjs`.
