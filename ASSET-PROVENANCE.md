@@ -15,3 +15,5 @@
 - nodo v4: símbolo de conexiones original generado para el producto y portadas clara/oscura de 65 herramientas. Fuente conservada en `nmclabs-nodo/assets/brand-source.png`; composición y exportación de iconos mediante `scripts/brand.mjs`.
 
 - nodo v5: las portadas conservan el símbolo de conexiones e incorporan el catálogo de 72 herramientas.
+
+- nodo v6: portadas de 100 herramientas, con el símbolo de conexiones y variantes del sistema conservadas.
