@@ -9,3 +9,5 @@
 
 - nodo: identidad y composición originales de NMC Labs, reutilizadas del producto publicado; variantes clara y oscura.
 - `proyectos/readme/`: copias de las imágenes ya usadas en los README de los proyectos. El manifiesto `docs/readme-images.json` identifica su origen y huella. Solo se publican las imágenes de presentación, sin código de los repositorios privados.
+
+- nodo v2: composición original en grafito y azul con calculadora de subredes, JSON y huellas de archivos; `nmclabs-nodo/scripts/brand.mjs` permite regenerar las variantes y el favicon.

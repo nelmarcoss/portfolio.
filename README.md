@@ -22,7 +22,7 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 ## Qué incluye
 
 - platto, puntual, amano, estancia, apunto, nodo, atlas y tramo como proyectos destacados, con año y contexto.
-- nodo: contraseñas, frases de paso, QR Wi-Fi y verificación de archivos, con procesamiento local y sin guardar datos entre visitas.
+- nodo: 13 herramientas de sistemas con buscador: accesos, subredes IPv4, URL, QR, JSON, Base64, fechas, almacenamiento y verificación de archivos. Cálculos locales sin guardar datos entre visitas.
 - apunto: talleres de coches y motos con citas, recepción, presupuestos y adicionales, planificación de recursos, piezas, historial, cobro presencial, resguardo y mantenimiento. Demo local con avisos e importes simulados.
 - estancia: reservas, cantidad de alojamientos, galerías etiquetadas, temporadas, check-in e incidencias del huésped e informes; correos en vista previa y conexiones con canales como implantación a preparar.
 - amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
