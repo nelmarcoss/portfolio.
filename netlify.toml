@@ -13,7 +13,7 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
     X-Frame-Options = "DENY"
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
-    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-rGFS30djGcZaEsg8wIxJhNGniMFXAVQYzVLZFfUlld4=' 'sha256-QpzO7YX31z+DMpQtkG6r3e65OxCuZj5C6zlyJpnlN7g=' 'sha256-S1/Gfji4xfVdvLPd364OHahU840CLVA2BajjRuN8w9A=' 'sha256-ViF7S2SUYFFUP++GpdUVUfeXa/R4RGDJ3fGSUBUTg/U=' 'sha256-0kLjYJeKxz0ZlKpzdrEXAJ1Th7x4i+A2bEFUEzdxqOI='; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'sha256-DnSj0IJDixCVUASZutQWS42tVG0Lqz/Knp0LQJUKzVQ=' 'sha256-QpzO7YX31z+DMpQtkG6r3e65OxCuZj5C6zlyJpnlN7g=' 'sha256-ViF7S2SUYFFUP++GpdUVUfeXa/R4RGDJ3fGSUBUTg/U=' 'sha256-rGFS30djGcZaEsg8wIxJhNGniMFXAVQYzVLZFfUlld4='; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
 
 
 [[redirects]]

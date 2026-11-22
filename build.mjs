@@ -1,4 +1,4 @@
-import { cp, mkdir, rm, readdir } from 'node:fs/promises';
+import { cp, mkdir, rm, readdir, readFile } from 'node:fs/promises';
 
 await rm('dist', { recursive: true, force: true });
 await mkdir('dist/proyectos', { recursive: true });
@@ -16,4 +16,14 @@ for (const file of ["system-language-init.mjs", "system-language.mjs", "interfac
 // Mode-specific cover files; the browser downloads only its selected variant.
 for (const file of await readdir("proyectos")) {
   if (/-(?:brand|original-card)-(?:light|dark)\.webp$/.test(file)) await cp(`proyectos/${file}`, `dist/proyectos/${file}`);
+}
+
+// Public previews keep private-repository README images independent of GitHub raw URLs.
+await cp("proyectos/readme", "dist/proyectos/readme", { recursive: true });
+
+// Fail the build if a documented preview is missing or has changed without its manifest.
+const {createHash}=await import('node:crypto');
+for(const row of JSON.parse(await readFile('docs/readme-images.json','utf8'))){
+ const bytes=await readFile(row.image);
+ if(createHash('sha256').update(bytes).digest('hex')!==row.sha256)throw Error('Preview integrity mismatch: '+row.image);
 }

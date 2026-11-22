@@ -6,3 +6,6 @@
 - Originales: capturas reales de las primeras webs, conservadas dentro de un marco claro u oscuro.
 
 - estancia: portada comercial original en variantes clara y oscura, con calendario ilustrativo y fotografía generada con IA para el ejemplo de Finca del Río. No es una captura de la web.
+
+- nodo: identidad y composición originales de NMC Labs, reutilizadas del producto publicado; variantes clara y oscura.
+- `proyectos/readme/`: copias de las imágenes ya usadas en los README de los proyectos. El manifiesto `docs/readme-images.json` identifica su origen y huella. Solo se publican las imágenes de presentación, sin código de los repositorios privados.

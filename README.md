@@ -8,12 +8,12 @@
 
 <a href="https://nmclabs.dev/">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/images/preview-dark.png">
-    <img src="docs/images/preview.png" width="960" alt="Vista previa de NMC Labs — Sistemas y proyectos digitales">
+    <source media="(prefers-color-scheme: dark)" srcset="https://nmclabs.dev/profile-preview-dark.png">
+    <img src="https://nmclabs.dev/profile-preview-light.png" width="960" alt="Vista previa de NMC Labs — Sistemas y proyectos digitales">
   </picture>
 </a>
 
-[Vista clara](docs/images/preview.png) · [Vista oscura](docs/images/preview-dark.png) · [Vista móvil](docs/images/mobile.png)
+[Vista clara](https://nmclabs.dev/profile-preview-light.png) · [Vista oscura](https://nmclabs.dev/profile-preview-dark.png) · [Vista móvil](https://nmclabs.dev/proyectos/readme/portfolio/0016885a0e43-mobile.png)
 
 ## Qué es
 
@@ -21,7 +21,8 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 
 ## Qué incluye
 
-- platto, Puntual, amano, estancia, apunto, atlas y tramo como proyectos destacados, con año y contexto.
+- platto, puntual, amano, estancia, apunto, nodo, atlas y tramo como proyectos destacados, con año y contexto.
+- nodo: contraseñas, frases de paso, QR Wi-Fi y verificación de archivos, con procesamiento local y sin guardar datos entre visitas.
 - apunto: talleres de coches y motos con citas, recepción, presupuestos y adicionales, planificación de recursos, piezas, historial, cobro presencial, resguardo y mantenimiento. Demo local con avisos e importes simulados.
 - estancia: reservas, cantidad de alojamientos, galerías etiquetadas, temporadas, check-in e incidencias del huésped e informes; correos en vista previa y conexiones con canales como implantación a preparar.
 - amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
