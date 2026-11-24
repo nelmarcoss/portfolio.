@@ -19,3 +19,5 @@
 - nodo v6: portadas de 100 herramientas, con el símbolo de conexiones y variantes del sistema conservadas.
 
 - nodo · 24/11/2026: portadas clara y oscura de la interfaz verde, con composiciones de contraseñas, DNS y plano esquemático de rack 2D. Ilustración vectorial original reproducible en `nmclabs-nodo/scripts/cover-focus.mjs`, sin fotografías de fabricantes.
+
+- 24/11/2026: nodo, amano y apunto comparten la composición de atlas y el resto de proyectos: categoría, marca, titular, funciones y tarjeta de producto. Las tres portadas se regeneran con `node scripts/build-project-covers.mjs nodo amano apunto`; nodo conserva contraseñas, DNS y rack.
