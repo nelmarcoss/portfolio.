@@ -17,3 +17,5 @@
 - nodo v5: las portadas conservan el símbolo de conexiones e incorporan el catálogo de 72 herramientas.
 
 - nodo v6: portadas de 100 herramientas, con el símbolo de conexiones y variantes del sistema conservadas.
+
+- nodo · 24/11/2026: portadas clara y oscura de la interfaz verde, con composiciones de contraseñas, DNS y plano esquemático de rack 2D. Ilustración vectorial original reproducible en `nmclabs-nodo/scripts/cover-focus.mjs`, sin fotografías de fabricantes.

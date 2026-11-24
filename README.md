@@ -22,7 +22,7 @@ Mi espacio para desarrollar aplicaciones, explorar ideas y compartir mi evoluci�
 ## Qué incluye
 
 - platto, puntual, amano, estancia, apunto, nodo, atlas y tramo como proyectos destacados, con año y contexto.
-- nodo: 100 herramientas de sistemas con DNS público bajo autorización, diagnósticos e informes de correo, redes y VLAN, logs, revisión de configuraciones, soporte, accesos individuales, copias, scripts, archivos y datos. Cada herramienta tiene página propia, guía y acceso directo. Buscador, seis áreas, procesos aislados y nueva identidad de conexiones.
+- nodo: 100 herramientas de sistemas con DNS público bajo autorización, diagnósticos e informes de correo, redes y VLAN, logs, revisión de configuraciones, soporte, accesos individuales, copias, scripts, archivos y datos. Cada herramienta tiene página propia, guía y acceso directo. Buscador, seis áreas en la navegación superior, editor de racks 2D, procesos aislados y portadas adaptadas al sistema.
 - apunto: talleres de coches y motos con citas, recepción, presupuestos y adicionales, planificación de recursos, piezas, historial, cobro presencial, resguardo y mantenimiento. Demo local con avisos e importes simulados.
 - estancia: reservas, cantidad de alojamientos, galerías etiquetadas, temporadas, check-in e incidencias del huésped e informes; correos en vista previa y conexiones con canales como implantación a preparar.
 - amano: inventario de equipos de empresa, custodia, préstamos, mantenimiento y etiquetas QR en una demo completa.
