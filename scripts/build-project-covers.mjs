@@ -3,7 +3,7 @@ import {readFile,writeFile,mkdir} from 'node:fs/promises';
 import sharp from 'sharp';
 const root=new URL('../',import.meta.url),dir=new URL('proyectos/',root);
 const photo=async name=>'data:image/png;base64,'+(await readFile(new URL(`cover-assets/${name}.png`,dir))).toString('base64');
-const photos=Object.fromEntries(await Promise.all(['laptop','chair','farm','headphones','steak','leonida','estancia'].map(async n=>[n,await photo(n)])));
+const photos=Object.fromEntries(await Promise.all(['laptop','chair','farm','headphones','steak','leonida','estancia','nodo-mark'].map(async n=>[n,await photo(n)])));
 const qr = JSON.parse(await readFile(new URL('cover-assets/platto-qr.json', dir),'utf8'));
 const selected = new Set(process.argv.slice(2));
 const projects=[
@@ -42,7 +42,7 @@ const colors=['#3a8fd1','#d95765','#60a45b','#a66da6','#e4ba59'];let seats='';fo
 a+=text(664,128,'EL CONGRESO, EN PERSPECTIVA',20,muted,500)+seats+text(755,477,'Cada escaño cuenta',25,ink,600)+text(664,539,'Compara. Filtra. Explora pactos.',21,muted)+`<rect x="664" y="573" width="440" height="49" rx="12" fill="${soft}"/>`+text(686,604,'HEMICICLO ILUSTRATIVO · DEMO',17,accent);
 }return a;
 }
-function svg(p,dark){const c=dark?{bg:'#17221c',ink:'#eff3ed',muted:'#b0bdb2',panel:'#25342b',line:'#46584a',soft:'#31483c',accent:p.bright}:{bg:'#f0f3ec',ink:'#203027',muted:'#617067',panel:'#ffffff',line:'#d9e1d8',soft:'#e8efe6',accent:p.accent};return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="750" viewBox="24 15 1152 720"><rect width="1200" height="750" fill="${c.bg}"/><circle cx="169" cy="590" r="145" fill="${c.accent}" opacity=".045"/><circle cx="1140" cy="12" r="220" fill="${c.accent}" opacity=".065"/>${text(65,127,p.type,20,c.accent,600)}${text(61,275,p.name,p.key==='granja'?48:p.name.length>8?70:88,c.accent,650)}${p.tag.map((s,i)=>text(65,379+i*46,s,34,c.ink,500)).join('')}${text(65,509,p.detail,20,c.muted)}${text(65,657,'NMC Labs',22,c.accent,600)}${art(p,c)}</svg>`;}
+function svg(p,dark){const c=dark?{bg:'#17221c',ink:'#eff3ed',muted:'#b0bdb2',panel:'#25342b',line:'#46584a',soft:'#31483c',accent:p.bright}:{bg:'#f0f3ec',ink:'#203027',muted:'#617067',panel:'#ffffff',line:'#d9e1d8',soft:'#e8efe6',accent:p.accent};return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="750" viewBox="24 15 1152 720"><rect width="1200" height="750" fill="${c.bg}"/><circle cx="169" cy="590" r="145" fill="${c.accent}" opacity=".045"/><circle cx="1140" cy="12" r="220" fill="${c.accent}" opacity=".065"/>${text(65,127,p.type,20,c.accent,600)}${text(61,275,p.name,p.key==='granja'?48:p.name.length>8?70:88,c.accent,650)}${p.key==='nodo'? `<image href="${photos['nodo-mark']}" x="315" y="195" width="80" height="80"/>` : ''}${p.tag.map((s,i)=>text(65,379+i*46,s,34,c.ink,500)).join('')}${text(65,509,p.detail,20,c.muted)}${text(65,657,'NMC Labs',22,c.accent,600)}${art(p,c)}</svg>`;}
 await mkdir(new URL('cover-variants/',dir),{recursive:true});
 for(const p of projects.filter(p=>!selected.size||selected.has(p.key)))for(const dark of [false,true]){const mode=dark?'dark':'light';const source=svg(p,dark);await writeFile(new URL(`cover-variants/${p.key}-${mode}.svg`,dir),source);const webp=await sharp(Buffer.from(source)).webp({quality:90}).toBuffer();await writeFile(new URL(`${p.key}-brand-${mode}.webp`,dir),webp);if(!dark) {
  await writeFile(new URL(`${p.key}-brand.webp`,dir),webp);
